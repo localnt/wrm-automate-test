@@ -1,0 +1,278 @@
+{
+  "uuid": "9fc5c2ff-28ca-4bd7-b4f8-d78b1f8c6637-tr-0-1007",
+  "historyId": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test",
+  "fullName": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-0L701GT"
+    },
+    {
+      "name": "package",
+      "value": "WRMAutotests.Tests.WebUI.EndToEndTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "E2E003_Test"
+    },
+    {
+      "name": "testClass",
+      "value": "E2E003"
+    }
+  ],
+  "links": [],
+  "name": "E2E003_Test",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "E2E003_Test"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "E2E003_Test",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "[15:00:00] [Session Id: f53507] Click on the \"Login\" button on the \"Utility Default\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095644009663345.png",
+              "source": "958de6a82ac243bfa62840074d51eef4-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:00:00] [Session Id: f53507] Click on the \"Login\" button on the \"Utility Default\" page"
+            }
+          ],
+          "start": 1673942400553,
+          "stop": 1673942400980
+        },
+        {
+          "name": "[15:00:03] [Session Id: f53507] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095644034423531.png",
+              "source": "97b104e118cf40339a3daad8a7f81424-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:00:03] [Session Id: f53507] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673942403076,
+          "stop": 1673942403454
+        },
+        {
+          "name": "[15:00:03] [Session Id: f53507] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095644040231257.png",
+              "source": "3cb95f47b30d41c385afe35ae46c4597-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:00:03] [Session Id: f53507] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673942403639,
+          "stop": 1673942404034
+        },
+        {
+          "name": "[15:00:04] [Session Id: f53507] Click on the \"Login\" button on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095644046215032.png",
+              "source": "29862fe0e84e47e0b9defd7d0715ddd6-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:00:04] [Session Id: f53507] Click on the \"Login\" button on the \"Login\" panel"
+            }
+          ],
+          "start": 1673942404206,
+          "stop": 1673942404634
+        },
+        {
+          "name": "[15:00:07] [Session Id: f53507] Click on the \"Open dropdown\" button on the \"Operating company\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095644080003260.png",
+              "source": "52994801e4e74911bd72088b7881db4c-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:00:07] [Session Id: f53507] Click on the \"Open dropdown\" button on the \"Operating company\" dropdown menu"
+            }
+          ],
+          "start": 1673942407573,
+          "stop": 1673942408016
+        },
+        {
+          "name": "[15:00:12] [Session Id: f53507] Click on the \"NG: New England menu element\" button on the \"Operating company\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095644125712820.png",
+              "source": "011a24bc9d7340f4b9476a957005dc7e-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:00:12] [Session Id: f53507] Click on the \"NG: New England menu element\" button on the \"Operating company\" dropdown menu"
+            }
+          ],
+          "start": 1673942412212,
+          "stop": 1673942412583
+        },
+        {
+          "name": "[15:00:16] [Session Id: f53507] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095644172188288.png",
+              "source": "e40b9edc8cae4269b9d10de365e2c96e-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:00:16] [Session Id: f53507] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673942416833,
+          "stop": 1673942417230
+        },
+        {
+          "name": "[15:00:21] [Session Id: f53507] Click on the \"Event Test01 menu element\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095644217873628.png",
+              "source": "d8af4b43716e443c8ff19cfb22ae33ee-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:00:21] [Session Id: f53507] Click on the \"Event Test01 menu element\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673942421398,
+          "stop": 1673942421803
+        }
+      ],
+      "attachments": [
+        {
+          "name": "E2E003_Test_screenshot_638095644224023359.png",
+          "source": "0d96000eb3e2410f994c6f5f9bbe069a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "9a055c042aac495fbf09025971925669-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1673942398089,
+      "stop": 1673942422700
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673942398088,
+  "stop": 1673942422710
+}

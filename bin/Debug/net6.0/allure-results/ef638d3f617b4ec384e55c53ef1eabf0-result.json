@@ -1,0 +1,1531 @@
+{
+  "uuid": "4e091c74-75d6-4688-bbcc-b6339bbf8bbf-tr-0-1005",
+  "historyId": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E002.E2E002_Test",
+  "fullName": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E002.E2E002_Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-0L701GT"
+    },
+    {
+      "name": "package",
+      "value": "WRMAutotests.Tests.WebUI.EndToEndTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "E2E002_Test"
+    },
+    {
+      "name": "testClass",
+      "value": "E2E002"
+    }
+  ],
+  "links": [],
+  "name": "E2E002_Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "E2E002_Test"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "E2E002_Test",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "[14:41:00] [Session Id: e28d71] Click on the \"Login\" button on the \"Utility Default\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095632612180525.png",
+              "source": "372f5483a3e344669194550ef0477315-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:41:00] [Session Id: e28d71] Click on the \"Login\" button on the \"Utility Default\" page"
+            }
+          ],
+          "start": 1673941260822,
+          "stop": 1673941261234
+        },
+        {
+          "name": "[14:41:03] [Session Id: e28d71] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095632638436708.png",
+              "source": "d47cffe6271c4d05a3e40cdac31904c3-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:41:03] [Session Id: e28d71] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673941263477,
+          "stop": 1673941263855
+        },
+        {
+          "name": "[14:41:04] [Session Id: e28d71] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095632644049433.png",
+              "source": "5a198d85ef3c43ffa0afa1aafdce4583-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:41:04] [Session Id: e28d71] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673941264031,
+          "stop": 1673941264415
+        },
+        {
+          "name": "[14:41:04] [Session Id: e28d71] Click on the \"Login\" button on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095632650079635.png",
+              "source": "d1e30ffd04ae48e2b2f874aad76cd321-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:41:04] [Session Id: e28d71] Click on the \"Login\" button on the \"Login\" panel"
+            }
+          ],
+          "start": 1673941264584,
+          "stop": 1673941265022
+        },
+        {
+          "name": "[14:41:08] [Session Id: e28d71] Click on the \"Open dropdown\" button on the \"Operating company\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095632686836355.png",
+              "source": "f50bc9fbe76844f0a6371c610d210e70-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:41:08] [Session Id: e28d71] Click on the \"Open dropdown\" button on the \"Operating company\" dropdown menu"
+            }
+          ],
+          "start": 1673941268284,
+          "stop": 1673941268701
+        },
+        {
+          "name": "[14:41:12] [Session Id: e28d71] Click on the \"NG: Downstate NY menu element\" button on the \"Operating company\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095632732234794.png",
+              "source": "b216088ab0084ea59cb59483778e065c-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:41:12] [Session Id: e28d71] Click on the \"NG: Downstate NY menu element\" button on the \"Operating company\" dropdown menu"
+            }
+          ],
+          "start": 1673941272864,
+          "stop": 1673941273236
+        },
+        {
+          "name": "[14:41:17] [Session Id: e28d71] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095632779284150.png",
+              "source": "5198873bffae485b8cee14add06f9443-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:41:17] [Session Id: e28d71] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673941277492,
+          "stop": 1673941277944
+        },
+        {
+          "name": "[14:41:22] [Session Id: e28d71] Click on the \"All Active Events menu element\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095632824675168.png",
+              "source": "885a1b267efc4485ba032c417e7729e5-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:41:22] [Session Id: e28d71] Click on the \"All Active Events menu element\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673941282095,
+          "stop": 1673941282478
+        },
+        {
+          "name": "[14:42:23] [Session Id: e28d71] Click on the \"Open events dropdown menu\" button on the \"Utility Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633434129139.png",
+              "source": "4e53c5990c694518a30064b2a6a30faf-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:42:23] [Session Id: e28d71] Click on the \"Open events dropdown menu\" button on the \"Utility Header\" panel"
+            }
+          ],
+          "start": 1673941343099,
+          "stop": 1673941343424
+        },
+        {
+          "name": "[14:42:27] [Session Id: e28d71] Click on the \"Manage\" button on the \" Header Events\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633477503763.png",
+              "source": "f89782e5250b4df8845da943a192f545-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:42:27] [Session Id: e28d71] Click on the \"Manage\" button on the \" Header Events\" dropdown menu"
+            }
+          ],
+          "start": 1673941347561,
+          "stop": 1673941347760
+        },
+        {
+          "name": "[14:42:27] [Session Id: e28d71] Click on the \"Add\" button on the \"Utility Events\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633482108547.png",
+              "source": "c96e3d1571c348b7923826b3ecc6c7b9-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:42:27] [Session Id: e28d71] Click on the \"Add\" button on the \"Utility Events\" page"
+            }
+          ],
+          "start": 1673941347988,
+          "stop": 1673941348225
+        },
+        {
+          "name": "[14:42:35] [Session Id: e28d71] Enter \"Event0025\" into \"Code\" field on the \"Event\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633558243131.png",
+              "source": "47a7c30eb4ba4cfda771e86484554a17-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:42:35] [Session Id: e28d71] Enter \"Event0025\" into \"Code\" field on the \"Event\" page"
+            }
+          ],
+          "start": 1673941355617,
+          "stop": 1673941355833
+        },
+        {
+          "name": "[14:42:36] [Session Id: e28d71] Enter \"Event Test04\" into \"Name\" field on the \"Event\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633562198567.png",
+              "source": "5715e2f6866f498686e59ffcfeab6ac3-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:42:36] [Session Id: e28d71] Enter \"Event Test04\" into \"Name\" field on the \"Event\" page"
+            }
+          ],
+          "start": 1673941356043,
+          "stop": 1673941356229
+        },
+        {
+          "name": "[14:42:36] [Session Id: e28d71] Click on the \"Open dropdown\" button on the \"Select type of Event\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633566033283.png",
+              "source": "1ae74be888eb4e02b15a91e6efac80fa-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:42:36] [Session Id: e28d71] Click on the \"Open dropdown\" button on the \"Select type of Event\" dropdown menu"
+            }
+          ],
+          "start": 1673941356420,
+          "stop": 1673941356613
+        },
+        {
+          "name": "[14:42:40] [Session Id: e28d71] Click on the \"Winter Storm menu element\" button on the \"Select type of Event\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633610193067.png",
+              "source": "5a761c704a594a2eb7b267ade0d2280c-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:42:40] [Session Id: e28d71] Click on the \"Winter Storm menu element\" button on the \"Select type of Event\" dropdown menu"
+            }
+          ],
+          "start": 1673941360814,
+          "stop": 1673941361030
+        },
+        {
+          "name": "[14:42:45] [Session Id: e28d71] Enter \"Test Event Description\" into \"Description\" field on the \"Event\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633656189137.png",
+              "source": "c9d0f549f7114b5e81841c705d821758-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:42:45] [Session Id: e28d71] Enter \"Test Event Description\" into \"Description\" field on the \"Event\" page"
+            }
+          ],
+          "start": 1673941365429,
+          "stop": 1673941365628
+        },
+        {
+          "name": "[14:42:45] [Session Id: e28d71] Select Operating company: NG: Downstate NY on the \"Event\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633659758162.png",
+              "source": "f313d190fc894845b1745f1a08022faa-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:42:45] [Session Id: e28d71] Select Operating company: NG: Downstate NY on the \"Event\" page"
+            }
+          ],
+          "start": 1673941365793,
+          "stop": 1673941365985
+        },
+        {
+          "name": "[14:42:48] [Session Id: e28d71] Check default event Checkbox on the \"Event\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633684933089.png",
+              "source": "93bb062e755749d29e4ddc56780f6a15-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:42:48] [Session Id: e28d71] Check default event Checkbox on the \"Event\" page"
+            }
+          ],
+          "start": 1673941368301,
+          "stop": 1673941368503
+        },
+        {
+          "name": "[14:42:48] [Session Id: e28d71] Select Event start date on the \"Event\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633687093299.png",
+              "source": "230017d419b34a65b4fc2e7436c7a2df-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:42:48] [Session Id: e28d71] Select Event start date on the \"Event\" page"
+            }
+          ],
+          "start": 1673941368527,
+          "stop": 1673941368719
+        },
+        {
+          "name": "[14:42:58] [Session Id: e28d71] Select Event end date on the \"Event\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633785048050.png",
+              "source": "c68fbae9ec4b471a9ffa9faed651903e-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:42:58] [Session Id: e28d71] Select Event end date on the \"Event\" page"
+            }
+          ],
+          "start": 1673941378325,
+          "stop": 1673941378514
+        },
+        {
+          "name": "[14:43:08] [Session Id: e28d71] Click on the \"Add\" button on the \"Event\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633890745679.png",
+              "source": "e8266e0c5c084074b4411148772e6431-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:43:08] [Session Id: e28d71] Click on the \"Add\" button on the \"Event\" page"
+            }
+          ],
+          "start": 1673941388888,
+          "stop": 1673941389083
+        },
+        {
+          "name": "[14:43:09] [Session Id: e28d71] Click on the \"Confirm\" button on the \"Confirmation\" window",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095633894396221.png",
+              "source": "97005ef6b3f041398b1e72a06321263c-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:43:09] [Session Id: e28d71] Click on the \"Confirm\" button on the \"Confirmation\" window"
+            }
+          ],
+          "start": 1673941389230,
+          "stop": 1673941389451
+        },
+        {
+          "name": "[14:43:28] [Session Id: e28d71] Verify that Toast panel present with expected test. Expected: The record has been added successfully. Click view to see the detail.. Found value: The record has been added successfully. Click view to see the detail. on the \"Event\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634089850592.png",
+              "source": "1284cd45dce342259727737e445e0b95-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:43:28] [Session Id: e28d71] Verify that Toast panel present with expected test. Expected: The record has been added successfully. Click view to see the detail.. Found value: The record has been added successfully. Click view to see the detail. on the \"Event\" page"
+            }
+          ],
+          "start": 1673941408795,
+          "stop": 1673941408996
+        },
+        {
+          "name": "[14:43:29] [Session Id: e28d71] Click on the \"Link\" button on the \"Message Notification\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634091973041.png",
+              "source": "e672e0b27b1045feb7d84260d7a01d9a-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:43:29] [Session Id: e28d71] Click on the \"Link\" button on the \"Message Notification\" panel"
+            }
+          ],
+          "start": 1673941409004,
+          "stop": 1673941409208
+        },
+        {
+          "name": "[14:44:12] [Session Id: e28d71] Verify that Row with expected code present on any page on the \"Events\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634524086197.png",
+              "source": "74118fafd9fd4e2b81b9d2cc9d64b7c3-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:12] [Session Id: e28d71] Verify that Row with expected code present on any page on the \"Events\" panel"
+            }
+          ],
+          "start": 1673941452194,
+          "stop": 1673941452419
+        },
+        {
+          "name": "[14:44:32] [Session Id: e28d71] Verify that row have expected name. Expected: Event Test04. Found value: Event Test04 on the \"Event\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634728765727.png",
+              "source": "3eb17b0cb7e047fe99ea7c19443c7cb3-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:32] [Session Id: e28d71] Verify that row have expected name. Expected: Event Test04. Found value: Event Test04 on the \"Event\" row"
+            }
+          ],
+          "start": 1673941472657,
+          "stop": 1673941472887
+        },
+        {
+          "name": "[14:44:32] [Session Id: e28d71] Verify that row have expected type. Expected: Winter Storm. Found value: Winter Storm on the \"Event\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634731381614.png",
+              "source": "de6dac63ca404ba0a233b7dbf60664c5-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:32] [Session Id: e28d71] Verify that row have expected type. Expected: Winter Storm. Found value: Winter Storm on the \"Event\" row"
+            }
+          ],
+          "start": 1673941472915,
+          "stop": 1673941473147
+        },
+        {
+          "name": "[14:44:33] [Session Id: e28d71] Verify that row have expected description. Expected: Test Event Description. Found value: Test Event Description on the \"Event\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634733951049.png",
+              "source": "5756d862148d451b8631c1bc0601016f-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:33] [Session Id: e28d71] Verify that row have expected description. Expected: Test Event Description. Found value: Test Event Description on the \"Event\" row"
+            }
+          ],
+          "start": 1673941473177,
+          "stop": 1673941473405
+        },
+        {
+          "name": "[14:44:33] [Session Id: e28d71] Verify that row have expected status. Expected: Active. Found value: Active on the \"Event\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634736541255.png",
+              "source": "ace04c48149d42ba8d65dad2fd150ab9-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:33] [Session Id: e28d71] Verify that row have expected status. Expected: Active. Found value: Active on the \"Event\" row"
+            }
+          ],
+          "start": 1673941473434,
+          "stop": 1673941473663
+        },
+        {
+          "name": "[14:44:33] [Session Id: e28d71] Verify that row have expected updated value. Expected: just now. Found value: just now on the \"Event\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634738982705.png",
+              "source": "3599d0fc7be241e79331dcc186397281-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:33] [Session Id: e28d71] Verify that row have expected updated value. Expected: just now. Found value: just now on the \"Event\" row"
+            }
+          ],
+          "start": 1673941473693,
+          "stop": 1673941473907
+        },
+        {
+          "name": "[14:44:33] [Session Id: e28d71] Verify that row have expected Email. Expected: wrmQAautotests2@gmail.com. Found value: wrmQAautotests2@gmail.com on the \"Event\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634741540039.png",
+              "source": "fd782eb0ab354dabb8bfbbc5183d050f-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:33] [Session Id: e28d71] Verify that row have expected Email. Expected: wrmQAautotests2@gmail.com. Found value: wrmQAautotests2@gmail.com on the \"Event\" row"
+            }
+          ],
+          "start": 1673941473936,
+          "stop": 1673941474163
+        },
+        {
+          "name": "[14:44:34] [Session Id: e28d71] Verify that row have expected operation company. Expected: NG: Downstate NY. Found value: NG: Downstate NY on the \"Event\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634744013689.png",
+              "source": "3b325edf47a643f08ae20b9af194c762-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:34] [Session Id: e28d71] Verify that row have expected operation company. Expected: NG: Downstate NY. Found value: NG: Downstate NY on the \"Event\" row"
+            }
+          ],
+          "start": 1673941474193,
+          "stop": 1673941474410
+        },
+        {
+          "name": "[14:44:34] [Session Id: e28d71] Click on the \"Open events dropdown menu\" button on the \"Utility Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634746426041.png",
+              "source": "5fee6a1df34446efbff0b244ace2d6da-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:34] [Session Id: e28d71] Click on the \"Open events dropdown menu\" button on the \"Utility Header\" panel"
+            }
+          ],
+          "start": 1673941474431,
+          "stop": 1673941474652
+        },
+        {
+          "name": "[14:44:39] [Session Id: e28d71] Verify that created event present from dropdown menu on the \"Utility Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634792662187.png",
+              "source": "fe7b621d227b4956aea41f66a2d35b71-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:39] [Session Id: e28d71] Verify that created event present from dropdown menu on the \"Utility Header\" panel"
+            }
+          ],
+          "start": 1673941479041,
+          "stop": 1673941479275
+        },
+        {
+          "name": "[14:44:39] [Session Id: e28d71] Click on the \"Account Dropdown menu\" button on the \"Utility Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634795130740.png",
+              "source": "5bddff0cb67d43ca8faf936851a48b02-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:39] [Session Id: e28d71] Click on the \"Account Dropdown menu\" button on the \"Utility Header\" panel"
+            }
+          ],
+          "start": 1673941479284,
+          "stop": 1673941479523
+        },
+        {
+          "name": "[14:44:39] [Session Id: e28d71] Click on the \"Logout\" button on the \"Account\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634799013233.png",
+              "source": "ee7bf0de63c64c55a39a6e5185de0108-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:39] [Session Id: e28d71] Click on the \"Logout\" button on the \"Account\" dropdown menu"
+            }
+          ],
+          "start": 1673941479629,
+          "stop": 1673941479911
+        },
+        {
+          "name": "[14:44:41] [Session Id: e28d71] Click on the \"Login\" button on the \"Utility Default\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634820436449.png",
+              "source": "965671b1c162423080e373274f08f669-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:41] [Session Id: e28d71] Click on the \"Login\" button on the \"Utility Default\" page"
+            }
+          ],
+          "start": 1673941481617,
+          "stop": 1673941482056
+        },
+        {
+          "name": "[14:44:43] [Session Id: e28d71] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634839872574.png",
+              "source": "6f31d986110d46e2939ab83256bd2d26-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:43] [Session Id: e28d71] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673941483611,
+          "stop": 1673941484002
+        },
+        {
+          "name": "[14:44:44] [Session Id: e28d71] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634845236364.png",
+              "source": "b34dc60138ec4d859c51b319b7459236-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:44] [Session Id: e28d71] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673941484177,
+          "stop": 1673941484536
+        },
+        {
+          "name": "[14:44:44] [Session Id: e28d71] Click on the \"Login\" button on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634851021993.png",
+              "source": "a98769498cef4b25a1ccda3924adc487-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:44] [Session Id: e28d71] Click on the \"Login\" button on the \"Login\" panel"
+            }
+          ],
+          "start": 1673941484702,
+          "stop": 1673941485114
+        },
+        {
+          "name": "[14:44:47] [Session Id: e28d71] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634880896336.png",
+              "source": "cc9483ad40cd4590a579d7c4f3d390e3-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:47] [Session Id: e28d71] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673941487695,
+          "stop": 1673941488102
+        },
+        {
+          "name": "[14:44:52] [Session Id: e28d71] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634931685756.png",
+              "source": "73209bfd159146cd86cbed39b1971ad4-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:52] [Session Id: e28d71] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673941492780,
+          "stop": 1673941493179
+        },
+        {
+          "name": "[14:44:57] [Session Id: e28d71] Verify that created event present on as option on the \"Welcome to Storm manager\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095634976469030.png",
+              "source": "3582a42354f34a3086537e7739356966-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:44:57] [Session Id: e28d71] Verify that created event present on as option on the \"Welcome to Storm manager\" panel"
+            }
+          ],
+          "start": 1673941497293,
+          "stop": 1673941497658
+        },
+        {
+          "name": "[14:45:00] [Session Id: 7fe471] Click on the \"Login\" button on the \"Utility Default\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635006184963.png",
+              "source": "1375bfaf2e0b473680989982d7d5ea18-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:00] [Session Id: 7fe471] Click on the \"Login\" button on the \"Utility Default\" page"
+            }
+          ],
+          "start": 1673941500195,
+          "stop": 1673941500632
+        },
+        {
+          "name": "[14:45:02] [Session Id: 7fe471] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635028690717.png",
+              "source": "b3500f3802d640419ea961f647f870f2-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:02] [Session Id: 7fe471] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673941502479,
+          "stop": 1673941502882
+        },
+        {
+          "name": "[14:45:03] [Session Id: 7fe471] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635034315723.png",
+              "source": "27aca5bb8a9d4dcda93c8c7f6bce455e-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:03] [Session Id: 7fe471] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673941503063,
+          "stop": 1673941503443
+        },
+        {
+          "name": "[14:45:03] [Session Id: 7fe471] Click on the \"Login\" button on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635040015646.png",
+              "source": "037fd72d70f343e887fc1e804d49fc34-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:03] [Session Id: 7fe471] Click on the \"Login\" button on the \"Login\" panel"
+            }
+          ],
+          "start": 1673941503612,
+          "stop": 1673941504014
+        },
+        {
+          "name": "[14:45:06] [Session Id: 7fe471] Click on the \"Open dropdown\" button on the \"Operating company\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635073455501.png",
+              "source": "bd23ec9c9d8b44e294a3ced09582e1a5-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:06] [Session Id: 7fe471] Click on the \"Open dropdown\" button on the \"Operating company\" dropdown menu"
+            }
+          ],
+          "start": 1673941506913,
+          "stop": 1673941507362
+        },
+        {
+          "name": "[14:45:11] [Session Id: 7fe471] Click on the \"NG: Downstate NY menu element\" button on the \"Operating company\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635119559915.png",
+              "source": "87320cf2cdd44c1fa26ff99a549825b5-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:11] [Session Id: 7fe471] Click on the \"NG: Downstate NY menu element\" button on the \"Operating company\" dropdown menu"
+            }
+          ],
+          "start": 1673941511556,
+          "stop": 1673941511968
+        },
+        {
+          "name": "[14:45:16] [Session Id: 7fe471] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635165707300.png",
+              "source": "32d3508638584ecd8d5ddf149f6fc9cd-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:16] [Session Id: 7fe471] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673941516188,
+          "stop": 1673941516585
+        },
+        {
+          "name": "[14:45:20] [Session Id: 7fe471] Click on the \"All Active Events menu element\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635211286554.png",
+              "source": "e041a15d386643529609705ac9063933-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:20] [Session Id: 7fe471] Click on the \"All Active Events menu element\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673941520739,
+          "stop": 1673941521142
+        },
+        {
+          "name": "[14:45:28] [Session Id: 7fe471] Click on the \"Open events dropdown menu\" button on the \"Utility Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635290264099.png",
+              "source": "e662e11c6c6e4a22be71fd323186b674-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:28] [Session Id: 7fe471] Click on the \"Open events dropdown menu\" button on the \"Utility Header\" panel"
+            }
+          ],
+          "start": 1673941528728,
+          "stop": 1673941529037
+        },
+        {
+          "name": "[14:45:33] [Session Id: 7fe471] Click on the \"Manage\" button on the \" Header Events\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635333812126.png",
+              "source": "964e783bf20544068091f8381b9071db-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:33] [Session Id: 7fe471] Click on the \"Manage\" button on the \" Header Events\" dropdown menu"
+            }
+          ],
+          "start": 1673941533165,
+          "stop": 1673941533391
+        },
+        {
+          "name": "[14:45:53] [Session Id: 7fe471] Click on the \"Operation\" button on the \"Event\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635541908189.png",
+              "source": "80ebc8e84e834e0ca68023aaa1ff8092-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:53] [Session Id: 7fe471] Click on the \"Operation\" button on the \"Event\" row"
+            }
+          ],
+          "start": 1673941553918,
+          "stop": 1673941554202
+        },
+        {
+          "name": "[14:45:56] [Session Id: 7fe471] Click on the \"Cancel\" button on the \"Event\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635569833007.png",
+              "source": "174c68329c124a59bebdbc0cc5aa1307-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:56] [Session Id: 7fe471] Click on the \"Cancel\" button on the \"Event\" page"
+            }
+          ],
+          "start": 1673941556777,
+          "stop": 1673941556993
+        },
+        {
+          "name": "[14:45:57] [Session Id: 7fe471] Click on the \"Confirm\" button on the \"Confirmation\" window",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E002_Test_screenshot_638095635573784117.png",
+              "source": "1ae116592c1a4dd3b475b4dac44634f1-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:45:57] [Session Id: 7fe471] Click on the \"Confirm\" button on the \"Confirmation\" window"
+            }
+          ],
+          "start": 1673941557145,
+          "stop": 1673941557387
+        }
+      ],
+      "attachments": [
+        {
+          "name": "E2E002_Test_screenshot_638095635729471559.png",
+          "source": "bb00c5cadc6d44558ef39ed4f7356e16-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "E2E002_Test_screenshot_638095635735003778.png",
+          "source": "e4fa5c7929a045bdab433c1aeecd4883-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "971edab1ed9a4d6d93c401ae7586d157-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1673941258511,
+      "stop": 1673941573778
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673941258510,
+  "stop": 1673941573782
+}

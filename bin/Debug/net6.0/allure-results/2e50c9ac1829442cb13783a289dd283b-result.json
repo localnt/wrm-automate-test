@@ -1,0 +1,1558 @@
+{
+  "uuid": "d4edfd02-9cdb-49e9-b266-09561d0e093f-tr-0-1015",
+  "historyId": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E007.E2E007_Test",
+  "fullName": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E007.E2E007_Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-0L701GT"
+    },
+    {
+      "name": "package",
+      "value": "WRMAutotests.Tests.WebUI.EndToEndTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "E2E007_Test"
+    },
+    {
+      "name": "testClass",
+      "value": "E2E007"
+    }
+  ],
+  "links": [],
+  "name": "E2E007_Test",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "NUnit.Framework.AssertionException Inner Exception NUnit.Framework.AssertionException:   Expected: True\r\n  But was:  False\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsTrue(Boolean condition)\r\n   at WRMAutotests.Utility.AssertionUtils.TrueAssertion(String description, Boolean value) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\AssertionUtils.cs:line 32\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E007.E2E007_Test() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E007.cs:line 92"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "E2E007_Test",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "NUnit.Framework.AssertionException Inner Exception NUnit.Framework.AssertionException:   Expected: True\r\n  But was:  False\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsTrue(Boolean condition)\r\n   at WRMAutotests.Utility.AssertionUtils.TrueAssertion(String description, Boolean value) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\AssertionUtils.cs:line 32\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E007.E2E007_Test() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E007.cs:line 92"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "[13:39:19] [Session Id: efb751] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096459604088033.png",
+              "source": "f825724cd0d747bab309fcd2e8215186-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:39:19] [Session Id: efb751] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674023959962,
+          "stop": 1674023960430
+        },
+        {
+          "name": "[13:39:20] [Session Id: efb751] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096459610997653.png",
+              "source": "47de88c806ed4bf3927ebeb45b266214-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:39:20] [Session Id: efb751] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674023960665,
+          "stop": 1674023961113
+        },
+        {
+          "name": "[13:39:21] [Session Id: efb751] Click on the \"Login\" button on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096459616865091.png",
+              "source": "cf3e36f8df2e43b4a98f96494ecdda52-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:39:21] [Session Id: efb751] Click on the \"Login\" button on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674023961292,
+          "stop": 1674023961701
+        },
+        {
+          "name": "[13:39:48] [Session Id: efb751] Click on the \"Home\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096459889904172.png",
+              "source": "de8f2ff6af3d4d138d9b66be3f5163a5-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:39:48] [Session Id: efb751] Click on the \"Home\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674023988728,
+          "stop": 1674023989002
+        },
+        {
+          "name": "[13:40:09] [Session Id: efb751] Click on the \"Workforce\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096460102464115.png",
+              "source": "efa2e68d96e54dc1a8180e008f1e423a-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:40:09] [Session Id: efb751] Click on the \"Workforce\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674024009672,
+          "stop": 1674024010258
+        },
+        {
+          "name": "[13:40:13] [Session Id: efb751] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096460139517877.png",
+              "source": "caaf3005f5a740b4ab57f33f8ec29efa-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:40:13] [Session Id: efb751] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674024013377,
+          "stop": 1674024013963
+        },
+        {
+          "name": "[13:40:13] [Session Id: efb751] Click on the link Internal Workforce on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096460145443525.png",
+              "source": "5580370ffc2a42278518cf296e149ad4-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:40:13] [Session Id: efb751] Click on the link Internal Workforce on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674024013963,
+          "stop": 1674024014555
+        },
+        {
+          "name": "[13:40:37] [Session Id: efb751] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096460375531799.png",
+              "source": "58e0fc7eb1684fe3ac534a7856ac3caf-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:40:37] [Session Id: efb751] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page"
+            }
+          ],
+          "start": 1674024037345,
+          "stop": 1674024037564
+        },
+        {
+          "name": "[13:41:08] [Session Id: efb751] Click on the \"Add\" button on the \"Internal workforce\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096460683569924.png",
+              "source": "2bf225170d264a6292f7a83441042224-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:41:08] [Session Id: efb751] Click on the \"Add\" button on the \"Internal workforce\" page"
+            }
+          ],
+          "start": 1674024068145,
+          "stop": 1674024068367
+        },
+        {
+          "name": "[13:41:39] [Session Id: efb751] Enter \"Testic479269\" into \"Resource Pool Name\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461001681800.png",
+              "source": "8199d48de51d4fb691b346ae48f18553-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:41:39] [Session Id: efb751] Enter \"Testic479269\" into \"Resource Pool Name\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674024099976,
+          "stop": 1674024100181
+        },
+        {
+          "name": "[13:41:40] [Session Id: efb751] Click on the \"Open dropdown\" button on the \"Source Location\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461005570696.png",
+              "source": "14058aac302c4b6eb24f06d6cbc6ba88-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:41:40] [Session Id: efb751] Click on the \"Open dropdown\" button on the \"Source Location\" Dropdown menu"
+            }
+          ],
+          "start": 1674024100370,
+          "stop": 1674024100567
+        },
+        {
+          "name": "[13:41:44] [Session Id: efb751] Click on the \"Aaronsburg, PA menu element\" button on the \"Source Location\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461049424190.png",
+              "source": "aadad3b052ef4f22a224691d155a763e-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:41:44] [Session Id: efb751] Click on the \"Aaronsburg, PA menu element\" button on the \"Source Location\" Dropdown menu"
+            }
+          ],
+          "start": 1674024104757,
+          "stop": 1674024104952
+        },
+        {
+          "name": "[13:41:49] [Session Id: efb751] Uncheck \"On - IOU\" checkbox on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461093057027.png",
+              "source": "2db3c78b7ab048be9ea9649b2c10a204-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:41:49] [Session Id: efb751] Uncheck \"On - IOU\" checkbox on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674024109115,
+          "stop": 1674024109315
+        },
+        {
+          "name": "[13:41:49] [Session Id: efb751] Enter \"5\" into \"Estimated Resources\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461095242901.png",
+              "source": "eb2efb0ba5fd4e1c9e195840552f6917-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:41:49] [Session Id: efb751] Enter \"5\" into \"Estimated Resources\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674024109341,
+          "stop": 1674024109534
+        },
+        {
+          "name": "[13:41:49] [Session Id: efb751] Enter \"3\" into \"Estimated Crews\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461099256662.png",
+              "source": "07867149634a409d9d719445f707d619-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:41:49] [Session Id: efb751] Enter \"3\" into \"Estimated Crews\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674024109729,
+          "stop": 1674024109936
+        },
+        {
+          "name": "[13:41:50] [Session Id: efb751] Enter \"4\" into \"Crew size\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461103407187.png",
+              "source": "11e21adc8e814c35b66f101099384c9a-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:41:50] [Session Id: efb751] Enter \"4\" into \"Crew size\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674024110135,
+          "stop": 1674024110352
+        },
+        {
+          "name": "[13:41:50] [Session Id: efb751] Enter \"6\" into \"Estimated Buckets\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461107524191.png",
+              "source": "6a9e1ef6403b453ebbe0da5dfe6a90f1-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:41:50] [Session Id: efb751] Enter \"6\" into \"Estimated Buckets\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674024110542,
+          "stop": 1674024110762
+        },
+        {
+          "name": "[13:41:50] [Session Id: efb751] Enter \"6\" into \"Estimated Diggers\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461111596467.png",
+              "source": "a7e386b6498c44a5a9cd07cd8b875b12-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:41:50] [Session Id: efb751] Enter \"6\" into \"Estimated Diggers\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674024110953,
+          "stop": 1674024111169
+        },
+        {
+          "name": "[13:41:51] [Session Id: efb751] Click on the \"Add\" button on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461115601672.png",
+              "source": "9d617718c74042aa86925c6612564fb9-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:41:51] [Session Id: efb751] Click on the \"Add\" button on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674024111365,
+          "stop": 1674024111570
+        },
+        {
+          "name": "[13:42:22] [Session Id: 29a663] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461433399128.png",
+              "source": "7a954fd4328342f5bf247f5fd60f825d-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:42:22] [Session Id: 29a663] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674024142969,
+          "stop": 1674024143352
+        },
+        {
+          "name": "[13:42:23] [Session Id: 29a663] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461439110588.png",
+              "source": "af70ab8d844b44d48927c3f5097c2ec3-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:42:23] [Session Id: 29a663] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674024143543,
+          "stop": 1674024143924
+        },
+        {
+          "name": "[13:42:24] [Session Id: 29a663] Click on the \"Login\" button on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461444183627.png",
+              "source": "ac76996f140f4ca697718d919ca2bf97-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:42:24] [Session Id: 29a663] Click on the \"Login\" button on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674024144076,
+          "stop": 1674024144430
+        },
+        {
+          "name": "[13:42:27] [Session Id: 29a663] Click on the \"Home\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461476685424.png",
+              "source": "3a5dd5ddc71e473d9008f432b2e0882a-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:42:27] [Session Id: 29a663] Click on the \"Home\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674024147456,
+          "stop": 1674024147681
+        },
+        {
+          "name": "[13:42:48] [Session Id: 29a663] Click on the \"Workforce\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461688967097.png",
+              "source": "76ebf46a3ced47cf9745b9705b77acfa-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:42:48] [Session Id: 29a663] Click on the \"Workforce\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674024168323,
+          "stop": 1674024168915
+        },
+        {
+          "name": "[13:42:52] [Session Id: 29a663] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461726366922.png",
+              "source": "cf11dd68709a4605aabbcc800e1b6e12-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:42:52] [Session Id: 29a663] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674024172047,
+          "stop": 1674024172659
+        },
+        {
+          "name": "[13:42:52] [Session Id: 29a663] Click on the link Internal Workforce on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096461732636886.png",
+              "source": "f6002ed1908849a3809e7a54aa2f0a24-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:42:52] [Session Id: 29a663] Click on the link Internal Workforce on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674024172659,
+          "stop": 1674024173282
+        },
+        {
+          "name": "[13:43:25] [Session Id: 29a663] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096462053807896.png",
+              "source": "4587de965f784e3d87e1da6c222f67a2-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:43:25] [Session Id: 29a663] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page"
+            }
+          ],
+          "start": 1674024205188,
+          "stop": 1674024205394
+        },
+        {
+          "name": "[13:44:06] [Session Id: 29a663] Click on the \"Crew Availability Form\" button on the \"Internal workforce\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096462469293979.png",
+              "source": "2d29ba9bfbde4bf1a3c95b3c914cff0a-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:44:06] [Session Id: 29a663] Click on the \"Crew Availability Form\" button on the \"Internal workforce\" page"
+            }
+          ],
+          "start": 1674024246691,
+          "stop": 1674024246943
+        },
+        {
+          "name": "[13:44:42] [Session Id: 29a663] Click on the \"Checkbox\" button on the \"Resource Pool on Crew Availability Form\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096462830915252.png",
+              "source": "56acbfd67e7a424baacbd484f6e5edbd-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:44:42] [Session Id: 29a663] Click on the \"Checkbox\" button on the \"Resource Pool on Crew Availability Form\" row"
+            }
+          ],
+          "start": 1674024282826,
+          "stop": 1674024283105
+        },
+        {
+          "name": "[13:44:46] [Session Id: 29a663] Click on the \"Checkbox\" button on the \"Resource Pool on Crew Availability Form\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096462868135300.png",
+              "source": "755a08029ad84d03a079c418dc9efed5-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:44:46] [Session Id: 29a663] Click on the \"Checkbox\" button on the \"Resource Pool on Crew Availability Form\" row"
+            }
+          ],
+          "start": 1674024286563,
+          "stop": 1674024286827
+        },
+        {
+          "name": "[13:44:48] [Session Id: 29a663] Click on the \"Share Crew Availability\" button on the \"Crew Availability Form\" window",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096462891702150.png",
+              "source": "596eb14b3c134a03ae732d82cedb6d95-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:44:48] [Session Id: 29a663] Click on the \"Share Crew Availability\" button on the \"Crew Availability Form\" window"
+            }
+          ],
+          "start": 1674024288936,
+          "stop": 1674024289186
+        },
+        {
+          "name": "[13:44:57] [Session Id: 29a663] Click on the \"Account Dropdown menu\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096462978927746.png",
+              "source": "9e24ed147ed640059e6c2190aef7da9f-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:44:57] [Session Id: 29a663] Click on the \"Account Dropdown menu\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674024297662,
+          "stop": 1674024297908
+        },
+        {
+          "name": "[13:44:58] [Session Id: 29a663] Click on the \"Logout\" button on the \"Account\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096462982935822.png",
+              "source": "82a4126cf77d4a0785740771aaac2e45-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:44:58] [Session Id: 29a663] Click on the \"Logout\" button on the \"Account\" dropdown menu"
+            }
+          ],
+          "start": 1674024298022,
+          "stop": 1674024298305
+        },
+        {
+          "name": "[13:44:59] [Session Id: 29a663] Click on the \"Login\" button on the \"Utility Default\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096463000353020.png",
+              "source": "ad288dc99458453fafa64dac3e57d32e-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:44:59] [Session Id: 29a663] Click on the \"Login\" button on the \"Utility Default\" page"
+            }
+          ],
+          "start": 1674024299593,
+          "stop": 1674024300048
+        },
+        {
+          "name": "[13:45:00] [Session Id: 29a663] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096463011631086.png",
+              "source": "8008f06a23cf4434a1e68f04586e1615-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:45:00] [Session Id: 29a663] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1674024300768,
+          "stop": 1674024301179
+        },
+        {
+          "name": "[13:45:01] [Session Id: 29a663] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096463017625723.png",
+              "source": "e35c7bf38b324741924c4dc8eb73d335-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:45:01] [Session Id: 29a663] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1674024301377,
+          "stop": 1674024301775
+        },
+        {
+          "name": "[13:45:01] [Session Id: 29a663] Click on the \"Login\" button on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096463023923286.png",
+              "source": "0af6293d4224488bb4537dc23d063cf1-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:45:01] [Session Id: 29a663] Click on the \"Login\" button on the \"Login\" panel"
+            }
+          ],
+          "start": 1674024301967,
+          "stop": 1674024302405
+        },
+        {
+          "name": "[13:45:04] [Session Id: 29a663] Click on the \"Access without event selection\" button on the \"Welcome to Storm manager\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096463052961089.png",
+              "source": "1d56600b50034e2e9515cd72750272f7-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:45:04] [Session Id: 29a663] Click on the \"Access without event selection\" button on the \"Welcome to Storm manager\" panel"
+            }
+          ],
+          "start": 1674024304879,
+          "stop": 1674024305310
+        },
+        {
+          "name": "[13:45:19] [Session Id: 29a663] Click on the \"Open Operating Company dropdown menu\" button on the \"Utility Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096463201490836.png",
+              "source": "5b96a8043b684157b0098d27f93eacf4-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:45:19] [Session Id: 29a663] Click on the \"Open Operating Company dropdown menu\" button on the \"Utility Header\" panel"
+            }
+          ],
+          "start": 1674024319910,
+          "stop": 1674024320162
+        },
+        {
+          "name": "[13:45:22] [Session Id: 29a663] Click on the \"Operating company: NG: New England\" button on the \"Operating company\" menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096463225858317.png",
+              "source": "02711bc02e5a44569e7217021c574d19-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:45:22] [Session Id: 29a663] Click on the \"Operating company: NG: New England\" button on the \"Operating company\" menu"
+            }
+          ],
+          "start": 1674024322335,
+          "stop": 1674024322598
+        },
+        {
+          "name": "[13:45:47] [Session Id: 29a663] Open Workforce menu on the \"Utility Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096463481421618.png",
+              "source": "105eee1c6b8c4a699d253c2a1f3add0a-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:45:47] [Session Id: 29a663] Open Workforce menu on the \"Utility Header\" panel"
+            }
+          ],
+          "start": 1674024347811,
+          "stop": 1674024348158
+        },
+        {
+          "name": "[13:45:58] [Session Id: 29a663] Click on the link Non-IOU Marketplace on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096463586853422.png",
+              "source": "0245368f0b3042dab895d1b81c39eb1d-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:45:58] [Session Id: 29a663] Click on the link Non-IOU Marketplace on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674024358391,
+          "stop": 1674024358699
+        },
+        {
+          "name": "[13:46:33] [Session Id: 29a663] Verify that Row with resource pool: BL&C-PA-ET present on any page on the \"Crew Availabilities\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096463932817505.png",
+              "source": "9792a385ba914bf59f1646fdc9892130-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:46:33] [Session Id: 29a663] Verify that Row with resource pool: BL&C-PA-ET present on any page on the \"Crew Availabilities\" panel"
+            }
+          ],
+          "start": 1674024393047,
+          "stop": 1674024393295
+        },
+        {
+          "name": "[13:46:33] [Session Id: 29a663] Click on the \"Messages\" button on the \"Utility Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096463935487969.png",
+              "source": "1f7d16a03bd7417294829efce482f0d3-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:46:33] [Session Id: 29a663] Click on the \"Messages\" button on the \"Utility Header\" panel"
+            }
+          ],
+          "start": 1674024393307,
+          "stop": 1674024393560
+        },
+        {
+          "name": "[13:47:13] [Session Id: 29a663] Click on the \"Subject link\" button on the \"Message\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096464338929875.png",
+              "source": "dd50fc9b3bc24395bdb8e38638b9fd4e-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:47:13] [Session Id: 29a663] Click on the \"Subject link\" button on the \"Message\" row"
+            }
+          ],
+          "start": 1674024433659,
+          "stop": 1674024433909
+        },
+        {
+          "name": "[13:51:19] [Session Id: 29a663] Verify that date of message expected or more: 1/18/2023 1:44:48 PM on the \"Message\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096466793851867.png",
+              "source": "b54cd981aaf04436b393ec5dfb00ee9f-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:51:19] [Session Id: 29a663] Verify that date of message expected or more: 1/18/2023 1:44:48 PM on the \"Message\" panel"
+            }
+          ],
+          "start": 1674024679161,
+          "stop": 1674024679399
+        },
+        {
+          "name": "[13:51:21] [Session Id: 997199] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096466823881100.png",
+              "source": "8d0bc4f7b2054a3380c164a5ffbccabf-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:51:21] [Session Id: 997199] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674024681902,
+          "stop": 1674024682406
+        },
+        {
+          "name": "[13:51:22] [Session Id: 997199] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096466830359955.png",
+              "source": "1cc1d8a22dfd4185b2312e377d5f4617-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:51:22] [Session Id: 997199] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674024682641,
+          "stop": 1674024683049
+        },
+        {
+          "name": "[13:51:23] [Session Id: 997199] Click on the \"Login\" button on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096466836410858.png",
+              "source": "1c0195f280ea4ff0837825d99289470d-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:51:23] [Session Id: 997199] Click on the \"Login\" button on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674024683230,
+          "stop": 1674024683654
+        },
+        {
+          "name": "[13:52:22] [Session Id: 997199] Click on the \"Home\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096467426833828.png",
+              "source": "20f3bbcb703646499f0602390191020e-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:52:22] [Session Id: 997199] Click on the \"Home\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674024742402,
+          "stop": 1674024742697
+        },
+        {
+          "name": "[13:52:43] [Session Id: 997199] Click on the \"Workforce\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096467640986954.png",
+              "source": "cd6d3d891f6f439db99f6fae77ed2ff0-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:52:43] [Session Id: 997199] Click on the \"Workforce\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674024763484,
+          "stop": 1674024764112
+        },
+        {
+          "name": "[13:52:47] [Session Id: 997199] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096467678513734.png",
+              "source": "b6bb1eb9e9254e6c8041eef7b20704cc-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:52:47] [Session Id: 997199] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674024767240,
+          "stop": 1674024767863
+        },
+        {
+          "name": "[13:52:47] [Session Id: 997199] Click on the link Internal Workforce on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096467684703381.png",
+              "source": "3be680c990eb4be8b38d28d3fffd8b54-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:52:47] [Session Id: 997199] Click on the link Internal Workforce on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674024767863,
+          "stop": 1674024768484
+        },
+        {
+          "name": "[13:53:10] [Session Id: 997199] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096467911923304.png",
+              "source": "5b7e32ba69b04a959ff2399c57f58f57-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:53:10] [Session Id: 997199] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page"
+            }
+          ],
+          "start": 1674024790985,
+          "stop": 1674024791203
+        },
+        {
+          "name": "[13:53:52] [Session Id: 997199] Click on the \"Operation\" button on the \"Resource pool\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096468327090026.png",
+              "source": "15469783b4164a1292a4e6f1c8c9d2a2-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:53:52] [Session Id: 997199] Click on the \"Operation\" button on the \"Resource pool\" row"
+            }
+          ],
+          "start": 1674024832440,
+          "stop": 1674024832725
+        },
+        {
+          "name": "[13:53:58] [Session Id: 997199] Click on the \"Delete\" button on the \"Resource pool edit\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096468386347860.png",
+              "source": "eb5f9316bed04539ab0d1ec1c8182803-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:53:58] [Session Id: 997199] Click on the \"Delete\" button on the \"Resource pool edit\" page"
+            }
+          ],
+          "start": 1674024838411,
+          "stop": 1674024838648
+        },
+        {
+          "name": "[13:53:58] [Session Id: 997199] Click on the \"Confirm\" button on the \"Confirmation\" window",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E007_Test_screenshot_638096468390854671.png",
+              "source": "84c18daf69ab414bb465a4d445c44231-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[13:53:58] [Session Id: 997199] Click on the \"Confirm\" button on the \"Confirmation\" window"
+            }
+          ],
+          "start": 1674024838851,
+          "stop": 1674024839096
+        }
+      ],
+      "attachments": [
+        {
+          "name": "E2E007_Test_screenshot_638096468745444315.png",
+          "source": "4dc3b576c5af4379863ca674aa80e196-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "E2E007_Test_screenshot_638096468751209330.png",
+          "source": "fa521e20ccea431689d2b67a6f8ed11e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "133bff8ac9f3471aa4ae9a37f7fda2c9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1674023956376,
+      "stop": 1674024875430
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674023956375,
+  "stop": 1674024875436
+}

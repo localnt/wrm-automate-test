@@ -1,0 +1,59 @@
+{
+  "uuid": "19cdf7b9-d0a3-4211-8992-7c8c1d211af5-tc-0-1006",
+  "name": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test",
+  "children": [
+    "bd79ac3b-6e00-4f25-8537-91ac8beb4077-tr-0-1007"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673942990818,
+      "stop": 1673942990818
+    },
+    {
+      "name": "SetUpDriver",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673942990819,
+      "stop": 1673942990819
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseDrive",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673942990819,
+      "stop": 1673942990819
+    }
+  ],
+  "links": [],
+  "start": 1673942916320,
+  "stop": 1673942990867
+}

@@ -1,0 +1,815 @@
+{
+  "uuid": "1c37765c-8ec3-42c9-91f3-022d6f45fbf6-tr-0-1017",
+  "historyId": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.E2E009_Test",
+  "fullName": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.E2E009_Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-0L701GT"
+    },
+    {
+      "name": "package",
+      "value": "WRMAutotests.Tests.WebUI.EndToEndTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "E2E009_Test"
+    },
+    {
+      "name": "testClass",
+      "value": "E2E009"
+    }
+  ],
+  "links": [],
+  "name": "E2E009_Test",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TearDown : System.IO.IOException : There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E009_Test_screenshot_638096514853966813.png'",
+    "trace": "--TearDown\r\n   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.MemoryStream.WriteTo(Stream stream)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at WRMAutotests.Utility.ReportUtils.MakeScreenshoot(BaseInformation baseInformation) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 64\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_o(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 56\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_w_0(Object[] )\r\n   at WRMAutotests.Utility.ReportUtils.BaseAllureStep(String step)\r\n   at WRMAutotests.Utility.ReportUtils.AllureStep(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 45\r\n   at WRMAutotests.Utility.ReportUtils.AllureStepWithPageObject(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 37\r\n   at WRMAutotests.Utility.ReportUtils.EnterValueToField(String nameOfField, String value) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 32\r\n   at WRMAutotests.PageObjects.Web.Contractor.pages.LoginPage.EnterEmail(String email) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\pages\\LoginPage.cs:line 28\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.LoginUntoDefaultContractor(BaseInformation baseInfortamtion, User user) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 152\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.DeleteCreatedResourcePool() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E009.cs:line 192"
+  },
+  "stage": "finished",
+  "description": "\nDeleteCreatedResourcePool TearDown method failed\n",
+  "steps": [
+    {
+      "name": "E2E009_Test",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "TearDown : System.IO.IOException : There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E009_Test_screenshot_638096514853966813.png'",
+        "trace": "--TearDown\r\n   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.MemoryStream.WriteTo(Stream stream)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at WRMAutotests.Utility.ReportUtils.MakeScreenshoot(BaseInformation baseInformation) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 64\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_o(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 56\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_w_0(Object[] )\r\n   at WRMAutotests.Utility.ReportUtils.BaseAllureStep(String step)\r\n   at WRMAutotests.Utility.ReportUtils.AllureStep(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 45\r\n   at WRMAutotests.Utility.ReportUtils.AllureStepWithPageObject(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 37\r\n   at WRMAutotests.Utility.ReportUtils.EnterValueToField(String nameOfField, String value) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 32\r\n   at WRMAutotests.PageObjects.Web.Contractor.pages.LoginPage.EnterEmail(String email) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\pages\\LoginPage.cs:line 28\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.LoginUntoDefaultContractor(BaseInformation baseInfortamtion, User user) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 152\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.DeleteCreatedResourcePool() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E009.cs:line 192"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "[15:07:52] [Session Id: f09109] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096512731023958.png",
+              "source": "378b3ffec7d341ddb6910f8461ca2668-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:07:52] [Session Id: f09109] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674029272646,
+          "stop": 1674029273120
+        },
+        {
+          "name": "[15:07:53] [Session Id: f09109] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096512737682592.png",
+              "source": "33d0e756dcaf43dd820a4463e3f0bf53-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:07:53] [Session Id: f09109] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674029273340,
+          "stop": 1674029273781
+        },
+        {
+          "name": "[15:07:53] [Session Id: f09109] Click on the \"Login\" button on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096512743750721.png",
+              "source": "6e653446b0c84453b7af09e0282730c6-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:07:53] [Session Id: f09109] Click on the \"Login\" button on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674029273987,
+          "stop": 1674029274390
+        },
+        {
+          "name": "[15:07:57] [Session Id: f09109] Click on the \"Home\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096512777773940.png",
+              "source": "f9435838a4eb40adae46d05df9bdac68-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:07:57] [Session Id: f09109] Click on the \"Home\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674029277509,
+          "stop": 1674029277791
+        },
+        {
+          "name": "[15:08:21] [Session Id: f09109] Click on the \"Workforce\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513018673853.png",
+              "source": "7a4df9f6b41145dd921cd5c886e825aa-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:08:21] [Session Id: f09109] Click on the \"Workforce\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674029301353,
+          "stop": 1674029301879
+        },
+        {
+          "name": "[15:08:25] [Session Id: f09109] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513055016479.png",
+              "source": "d0755a77232f46aa867e1111d5e73b03-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:08:25] [Session Id: f09109] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674029305001,
+          "stop": 1674029305515
+        },
+        {
+          "name": "[15:08:25] [Session Id: f09109] Click on the link Internal Workforce on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513060301008.png",
+              "source": "4a688342f63b46d38c85f0bc5e413192-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:08:25] [Session Id: f09109] Click on the link Internal Workforce on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674029305516,
+          "stop": 1674029306041
+        },
+        {
+          "name": "[15:08:48] [Session Id: f09109] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513290767141.png",
+              "source": "9a507b59dff9449fb1f4e03b3a3e483b-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:08:48] [Session Id: f09109] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page"
+            }
+          ],
+          "start": 1674029328881,
+          "stop": 1674029329088
+        },
+        {
+          "name": "[15:09:19] [Session Id: f09109] Click on the \"Add\" button on the \"Internal workforce\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513598542399.png",
+              "source": "b02f2cb992fb4abeb4daf3fdce9117b7-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:19] [Session Id: f09109] Click on the \"Add\" button on the \"Internal workforce\" page"
+            }
+          ],
+          "start": 1674029359647,
+          "stop": 1674029359865
+        },
+        {
+          "name": "[15:09:28] [Session Id: f09109] Enter \"Testic590772\" into \"Resource Pool Name\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513686396694.png",
+              "source": "95adf0aa19f6403881a18b7522995715-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:28] [Session Id: f09109] Enter \"Testic590772\" into \"Resource Pool Name\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674029368439,
+          "stop": 1674029368651
+        },
+        {
+          "name": "[15:09:28] [Session Id: f09109] Click on the \"Open dropdown\" button on the \"Source Location\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513690408299.png",
+              "source": "95adcf5412154bc9beeb12d542f31978-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:28] [Session Id: f09109] Click on the \"Open dropdown\" button on the \"Source Location\" Dropdown menu"
+            }
+          ],
+          "start": 1674029368838,
+          "stop": 1674029369052
+        },
+        {
+          "name": "[15:09:33] [Session Id: f09109] Click on the \"Abbeville, GA menu element\" button on the \"Source Location\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513734011981.png",
+              "source": "86ffb8b76dc84b7f889a28e975cf6d8d-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:33] [Session Id: f09109] Click on the \"Abbeville, GA menu element\" button on the \"Source Location\" Dropdown menu"
+            }
+          ],
+          "start": 1674029373224,
+          "stop": 1674029373416
+        },
+        {
+          "name": "[15:09:37] [Session Id: f09109] Uncheck \"On - IOU\" checkbox on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513778317517.png",
+              "source": "5c646e2b030f469dba1c8bc9c416f96f-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:37] [Session Id: f09109] Uncheck \"On - IOU\" checkbox on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674029377645,
+          "stop": 1674029377843
+        },
+        {
+          "name": "[15:09:37] [Session Id: f09109] Enter \"5\" into \"Estimated Resources\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513780493194.png",
+              "source": "b4c038c1beae45c888aedc8c4a339aea-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:37] [Session Id: f09109] Enter \"5\" into \"Estimated Resources\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674029377871,
+          "stop": 1674029378059
+        },
+        {
+          "name": "[15:09:38] [Session Id: f09109] Enter \"3\" into \"Estimated Crews\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513785317936.png",
+              "source": "04d2acd8d792494c9dc10effe66facd8-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:38] [Session Id: f09109] Enter \"3\" into \"Estimated Crews\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674029378287,
+          "stop": 1674029378542
+        },
+        {
+          "name": "[15:09:38] [Session Id: f09109] Enter \"4\" into \"Crew size\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513789347294.png",
+              "source": "8332efbe7a8f445b8980ebd16bbcc2ab-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:38] [Session Id: f09109] Enter \"4\" into \"Crew size\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674029378722,
+          "stop": 1674029378945
+        },
+        {
+          "name": "[15:09:39] [Session Id: f09109] Enter \"6\" into \"Estimated Buckets\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513793120033.png",
+              "source": "624d17fa7b0f45a183b4b5cec9d121a7-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:39] [Session Id: f09109] Enter \"6\" into \"Estimated Buckets\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674029379120,
+          "stop": 1674029379323
+        },
+        {
+          "name": "[15:09:39] [Session Id: f09109] Enter \"6\" into \"Estimated Diggers\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513797027869.png",
+              "source": "dc793bc5bf0f4a2783b5a322c8cb4f4b-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:39] [Session Id: f09109] Enter \"6\" into \"Estimated Diggers\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674029379500,
+          "stop": 1674029379713
+        },
+        {
+          "name": "[15:09:39] [Session Id: f09109] Click on the \"Add\" button on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096513801003351.png",
+              "source": "caa34df91e11463caa16fe1c7fae11f3-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:39] [Session Id: f09109] Click on the \"Add\" button on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1674029379896,
+          "stop": 1674029380111
+        },
+        {
+          "name": "[15:10:20] [Session Id: f09109] Click on the \"Crew Availability Form\" button on the \"Internal workforce\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096514211479187.png",
+              "source": "86884b5adbbb4516942ab8e54c4d1fd4-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:10:20] [Session Id: f09109] Click on the \"Crew Availability Form\" button on the \"Internal workforce\" page"
+            }
+          ],
+          "start": 1674029420883,
+          "stop": 1674029421160
+        },
+        {
+          "name": "[15:10:56] [Session Id: f09109] Click on the \"Checkbox\" button on the \"Resource Pool on Crew Availability Form\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096514572168247.png",
+              "source": "5ea8ce5865f94b44a3dbca5add1a5f25-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:10:56] [Session Id: f09109] Click on the \"Checkbox\" button on the \"Resource Pool on Crew Availability Form\" row"
+            }
+          ],
+          "start": 1674029456992,
+          "stop": 1674029457229
+        },
+        {
+          "name": "[15:11:00] [Session Id: f09109] Click on the \"Checkbox\" button on the \"Resource Pool on Crew Availability Form\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096514608337590.png",
+              "source": "f2a671e4514f48e39d29a75836b5c61f-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:11:00] [Session Id: f09109] Click on the \"Checkbox\" button on the \"Resource Pool on Crew Availability Form\" row"
+            }
+          ],
+          "start": 1674029460610,
+          "stop": 1674029460844
+        },
+        {
+          "name": "[15:11:02] [Session Id: f09109] Click on the \"Share Crew Availability\" button on the \"Crew Availability Form\" window",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096514631658186.png",
+              "source": "dd32d4940aed40e79a1e6b4bff506150-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:11:02] [Session Id: f09109] Click on the \"Share Crew Availability\" button on the \"Crew Availability Form\" window"
+            }
+          ],
+          "start": 1674029462951,
+          "stop": 1674029463176
+        },
+        {
+          "name": "[15:11:15] [Session Id: 0e209c] Click on the \"Login\" button on the \"Utility Default\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096514761770631.png",
+              "source": "514644cad64144f5a920aa3de73f31d8-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:11:15] [Session Id: 0e209c] Click on the \"Login\" button on the \"Utility Default\" page"
+            }
+          ],
+          "start": 1674029475730,
+          "stop": 1674029476190
+        },
+        {
+          "name": "[15:11:17] [Session Id: 0e209c] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096514779004739.png",
+              "source": "147cf5b89f2d48b9aa9c6bff8ac8e3be-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:11:17] [Session Id: 0e209c] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1674029477530,
+          "stop": 1674029477914
+        },
+        {
+          "name": "[15:11:18] [Session Id: 0e209c] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096514784543114.png",
+              "source": "ecc0f71cc8174e4cb7a84802728a9226-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:11:18] [Session Id: 0e209c] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1674029478092,
+          "stop": 1674029478467
+        },
+        {
+          "name": "[15:11:18] [Session Id: 0e209c] Click on the \"Login\" button on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096514790418759.png",
+              "source": "14346046bf6e4329b659480591d62076-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:11:18] [Session Id: 0e209c] Click on the \"Login\" button on the \"Login\" panel"
+            }
+          ],
+          "start": 1674029478635,
+          "stop": 1674029479056
+        },
+        {
+          "name": "[15:11:22] [Session Id: 0e209c] Click on the \"Access without event selection\" button on the \"Welcome to Storm manager\" panel",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E009_Test_screenshot_638096514826794842.png'",
+            "trace": "   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.MemoryStream.WriteTo(Stream stream)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at WRMAutotests.Utility.ReportUtils.MakeScreenshoot(BaseInformation baseInformation) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 64\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_o(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 56\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:11:22] [Session Id: 0e209c] Click on the \"Access without event selection\" button on the \"Welcome to Storm manager\" panel"
+            }
+          ],
+          "start": 1674029482305,
+          "stop": 1674029482734
+        },
+        {
+          "name": "[15:11:24] [Session Id: e2d9f9] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E009_Test_screenshot_638096514853966813.png'",
+            "trace": "   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.MemoryStream.WriteTo(Stream stream)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at WRMAutotests.Utility.ReportUtils.MakeScreenshoot(BaseInformation baseInformation) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 64\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_o(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 56\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:11:24] [Session Id: e2d9f9] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674029484974,
+          "stop": 1674029485399
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7cfa291f26a342c8b09ffa9161e7e15d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1674029269353,
+      "stop": 1674029486492
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674029269353,
+  "stop": 1674029486496
+}

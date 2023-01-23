@@ -1,0 +1,383 @@
+{
+  "uuid": "bd79ac3b-6e00-4f25-8537-91ac8beb4077-tr-0-1007",
+  "historyId": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test",
+  "fullName": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-0L701GT"
+    },
+    {
+      "name": "package",
+      "value": "WRMAutotests.Tests.WebUI.EndToEndTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "E2E003_Test"
+    },
+    {
+      "name": "testClass",
+      "value": "E2E003"
+    }
+  ],
+  "links": [],
+  "name": "E2E003_Test",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "NUnit.Framework.AssertionException Inner Exception NUnit.Framework.AssertionException: Absent menu element for Workflow menu: Crew Availability Request\r\n   at WRMAutotests.PageObjects.Web.Utility.panel.HeaderPanel.WorkforceMenuPanel.ClickLinkByName(String text) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Utility\\panel\\HeaderPanel.cs:line 254\r\n   at WRMAutotests.PageObjects.Web.Utility.panel.HeaderPanel.WorkforceMenuPanel.ClickCrewAvailabilityRequestButton() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Utility\\panel\\HeaderPanel.cs:line 232\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.CreateCrewAvailabilityRequest(ManageSecuredWorkforcePage manageSecuredWorkforcePage, String operatingCompany, String contractor, String subject, String message, String discipline) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 167\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E003.cs:line 30"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "E2E003_Test",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "NUnit.Framework.AssertionException Inner Exception NUnit.Framework.AssertionException: Absent menu element for Workflow menu: Crew Availability Request\r\n   at WRMAutotests.PageObjects.Web.Utility.panel.HeaderPanel.WorkforceMenuPanel.ClickLinkByName(String text) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Utility\\panel\\HeaderPanel.cs:line 254\r\n   at WRMAutotests.PageObjects.Web.Utility.panel.HeaderPanel.WorkforceMenuPanel.ClickCrewAvailabilityRequestButton() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Utility\\panel\\HeaderPanel.cs:line 232\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.CreateCrewAvailabilityRequest(ManageSecuredWorkforcePage manageSecuredWorkforcePage, String operatingCompany, String contractor, String subject, String message, String discipline) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 167\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E003.cs:line 30"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "[15:08:38] [Session Id: f95d5f] Click on the \"Login\" button on the \"Utility Default\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095649187075226.png",
+              "source": "d255970c5b764672ae15ac45e1f3b0e7-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:08:38] [Session Id: f95d5f] Click on the \"Login\" button on the \"Utility Default\" page"
+            }
+          ],
+          "start": 1673942918257,
+          "stop": 1673942918727
+        },
+        {
+          "name": "[15:08:39] [Session Id: f95d5f] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095649197899430.png",
+              "source": "cccfcd50a30e4b9ebcc4acf6fc9c8e2d-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:08:39] [Session Id: f95d5f] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673942919405,
+          "stop": 1673942919804
+        },
+        {
+          "name": "[15:08:39] [Session Id: f95d5f] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095649203563735.png",
+              "source": "ed419d70691e433c976a06123ecec18d-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:08:39] [Session Id: f95d5f] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673942919992,
+          "stop": 1673942920371
+        },
+        {
+          "name": "[15:08:40] [Session Id: f95d5f] Click on the \"Login\" button on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095649209377684.png",
+              "source": "10e8b5563add4761813cec408faae4c0-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:08:40] [Session Id: f95d5f] Click on the \"Login\" button on the \"Login\" panel"
+            }
+          ],
+          "start": 1673942920537,
+          "stop": 1673942920951
+        },
+        {
+          "name": "[15:08:42] [Session Id: f95d5f] Click on the \"Open dropdown\" button on the \"Operating company\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095649231623749.png",
+              "source": "ec5abd20792d44a284e763819c9117e3-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:08:42] [Session Id: f95d5f] Click on the \"Open dropdown\" button on the \"Operating company\" dropdown menu"
+            }
+          ],
+          "start": 1673942922735,
+          "stop": 1673942923174
+        },
+        {
+          "name": "[15:08:47] [Session Id: f95d5f] Click on the \"NG: New England menu element\" button on the \"Operating company\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095649277158814.png",
+              "source": "5ad9aa17b513453e91281c82e116de10-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:08:47] [Session Id: f95d5f] Click on the \"NG: New England menu element\" button on the \"Operating company\" dropdown menu"
+            }
+          ],
+          "start": 1673942927345,
+          "stop": 1673942927727
+        },
+        {
+          "name": "[15:08:51] [Session Id: f95d5f] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095649323588078.png",
+              "source": "7f2a019839914150a49c178ee67a4461-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:08:51] [Session Id: f95d5f] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673942931979,
+          "stop": 1673942932373
+        },
+        {
+          "name": "[15:08:56] [Session Id: f95d5f] Click on the \"2022.12.16 Snow menu element\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095649368937034.png",
+              "source": "7cdf4bad32c0467695137cbbb02d071a-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:08:56] [Session Id: f95d5f] Click on the \"2022.12.16 Snow menu element\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673942936538,
+          "stop": 1673942936906
+        },
+        {
+          "name": "[15:09:11] [Session Id: f95d5f] Click on the \"Open Operating Company dropdown menu\" button on the \"Utility Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095649520825871.png",
+              "source": "31e39086b2e74dac96de243664c19c7c-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:11] [Session Id: f95d5f] Click on the \"Open Operating Company dropdown menu\" button on the \"Utility Header\" panel"
+            }
+          ],
+          "start": 1673942951768,
+          "stop": 1673942952093
+        },
+        {
+          "name": "[15:09:14] [Session Id: f95d5f] Click on the \"Operating company: NG: New England\" button on the \"Operating company\" menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095649544346226.png",
+              "source": "ee048dbe9ff249509f003d252fc73c1c-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:14] [Session Id: f95d5f] Click on the \"Operating company: NG: New England\" button on the \"Operating company\" menu"
+            }
+          ],
+          "start": 1673942954248,
+          "stop": 1673942954444
+        },
+        {
+          "name": "[15:09:39] [Session Id: f95d5f] Open Workforce menu on the \"Utility Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095649798044263.png",
+              "source": "4c095660fcfe4012aa25fc036d31beab-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:39] [Session Id: f95d5f] Open Workforce menu on the \"Utility Header\" panel"
+            }
+          ],
+          "start": 1673942979611,
+          "stop": 1673942979814
+        },
+        {
+          "name": "[15:09:49] [Session Id: f95d5f] Click on the link Crew Availability Request on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095649902113192.png",
+              "source": "4780471dd7424808b1e025524e4e4a5c-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:09:49] [Session Id: f95d5f] Click on the link Crew Availability Request on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1673942989995,
+          "stop": 1673942990220
+        }
+      ],
+      "attachments": [
+        {
+          "name": "E2E003_Test_screenshot_638095649905722453.png",
+          "source": "3ffa40f1c43a45bd8aa01ca11dbbb823-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "cfe0f31490ed43b3be3b037744700379-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1673942916324,
+      "stop": 1673942990823
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673942916323,
+  "stop": 1673942990828
+}

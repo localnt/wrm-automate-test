@@ -1,0 +1,89 @@
+{
+  "uuid": "7d6039f9-7545-4d6c-a25d-c6866be08c02-tc-0-1014",
+  "name": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E007.E2E007_Test",
+  "children": [
+    "3d7ed9d4-2acc-4a72-95c4-779f254bfa4c-tr-0-1015"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674023875241,
+      "stop": 1674023875241
+    },
+    {
+      "name": "SetUpDriver",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674023875242,
+      "stop": 1674023875242
+    },
+    {
+      "name": "CreateResourcePool",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674023875242,
+      "stop": 1674023875242
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseDrive",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674023875242,
+      "stop": 1674023875242
+    },
+    {
+      "name": "DeleteCreatedResourcePool",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674023875242,
+      "stop": 1674023875242
+    }
+  ],
+  "links": [],
+  "start": 1674023554980,
+  "stop": 1674023875289
+}

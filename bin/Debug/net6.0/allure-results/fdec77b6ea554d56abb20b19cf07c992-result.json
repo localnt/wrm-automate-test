@@ -1,0 +1,474 @@
+{
+  "uuid": "db8eee08-73f9-4ebb-9765-84bcbe947d5e-tr-0-1017",
+  "historyId": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.E2E009_Test",
+  "fullName": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.E2E009_Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-0L701GT"
+    },
+    {
+      "name": "package",
+      "value": "WRMAutotests.Tests.WebUI.EndToEndTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "E2E009_Test"
+    },
+    {
+      "name": "testClass",
+      "value": "E2E009"
+    }
+  ],
+  "links": [],
+  "name": "E2E009_Test",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Absent menu element for Workflow menu: Internal Workforce\r\nTearDown : System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+    "trace": "   at WRMAutotests.PageObjects.Web.Contractor.panels.HeaderPanel.WorkforceMenuPanel.ClickLinkByName(String text) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\HeaderPanel.cs:line 122\r\n   at WRMAutotests.PageObjects.Web.Contractor.panels.HeaderPanel.WorkforceMenuPanel.ClickInternalWorkforceButton() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\HeaderPanel.cs:line 105\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.CreateResourcePool(MainPage mainPage, Tabs tab, String resourcePoolName, String sourceLocation, Int32 estimatedResources, Int32 estimatedCrews, Int32 crewSize, Int32 estimatedBuckets, Int32 estimatedDiggers, Boolean checkOnIouCheckbox, String utilityName) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 182\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.CreateNeedEnteties() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E009.cs:line 36\r\n\r\n--TearDown\r\n   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.DeleteCreatedResourcePool() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E009.cs:line 193"
+  },
+  "stage": "finished",
+  "description": "\nCreateNeedEnteties SetUp method failed\n\nDeleteCreatedResourcePool TearDown method failed\n",
+  "steps": [
+    {
+      "name": "E2E009_Test skipped because of ClearResultsDir failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Absent menu element for Workflow menu: Internal Workforce\r\nTearDown : System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+        "trace": "   at WRMAutotests.PageObjects.Web.Contractor.panels.HeaderPanel.WorkforceMenuPanel.ClickLinkByName(String text) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\HeaderPanel.cs:line 122\r\n   at WRMAutotests.PageObjects.Web.Contractor.panels.HeaderPanel.WorkforceMenuPanel.ClickInternalWorkforceButton() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\HeaderPanel.cs:line 105\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.CreateResourcePool(MainPage mainPage, Tabs tab, String resourcePoolName, String sourceLocation, Int32 estimatedResources, Int32 estimatedCrews, Int32 crewSize, Int32 estimatedBuckets, Int32 estimatedDiggers, Boolean checkOnIouCheckbox, String utilityName) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 182\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.CreateNeedEnteties() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E009.cs:line 36\r\n\r\n--TearDown\r\n   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.DeleteCreatedResourcePool() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E009.cs:line 193"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "[14:52:28] [Session Id: a77284] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096503489610261.png",
+              "source": "879439dfe27c4753a9104230c5d510fc-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:52:28] [Session Id: a77284] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674028348548,
+          "stop": 1674028348979
+        },
+        {
+          "name": "[14:52:29] [Session Id: a77284] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096503496187246.png",
+              "source": "292b2c1aa467443a9baf1c468ddad7e9-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:52:29] [Session Id: a77284] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674028349207,
+          "stop": 1674028349633
+        },
+        {
+          "name": "[14:52:29] [Session Id: a77284] Click on the \"Login\" button on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096503502435716.png",
+              "source": "96bea888d6224678b08c34b454915c6a-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:52:29] [Session Id: a77284] Click on the \"Login\" button on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674028349816,
+          "stop": 1674028350261
+        },
+        {
+          "name": "[14:52:35] [Session Id: a77284] Click on the \"Home\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096503561641783.png",
+              "source": "050f9a9e07804bf7a29c351724a3f95e-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:52:35] [Session Id: a77284] Click on the \"Home\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674028355871,
+          "stop": 1674028356179
+        },
+        {
+          "name": "[14:52:58] [Session Id: a77284] Click on the \"Workforce\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096503789594250.png",
+              "source": "e7963f5ec3cb4e3d98e2d16bde373e06-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:52:58] [Session Id: a77284] Click on the \"Workforce\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674028378423,
+          "stop": 1674028378971
+        },
+        {
+          "name": "[14:53:02] [Session Id: a77284] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096503826154570.png",
+              "source": "fea1a72cba0040959ad29d2a335674ec-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:53:02] [Session Id: a77284] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674028382100,
+          "stop": 1674028382628
+        },
+        {
+          "name": "[14:53:02] [Session Id: a77284] Click on the link Internal Workforce on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096503831627728.png",
+              "source": "ece0909203594ce68cd335015698e17b-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:53:02] [Session Id: a77284] Click on the link Internal Workforce on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674028382631,
+          "stop": 1674028383174
+        },
+        {
+          "name": "[14:53:05] [Session Id: 6afefd] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096503859412520.png",
+              "source": "5cb6a6b64f454bb180f75f0cfe4d013b-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:53:05] [Session Id: 6afefd] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674028385501,
+          "stop": 1674028385954
+        },
+        {
+          "name": "[14:53:06] [Session Id: 6afefd] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096503865196094.png",
+              "source": "4615be175da84b79ba26b46a432fac1f-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:53:06] [Session Id: 6afefd] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674028386141,
+          "stop": 1674028386532
+        },
+        {
+          "name": "[14:53:06] [Session Id: 6afefd] Click on the \"Login\" button on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096503870488425.png",
+              "source": "34ee375a33454250ba4afdd140dd0cba-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:53:06] [Session Id: 6afefd] Click on the \"Login\" button on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674028386689,
+          "stop": 1674028387061
+        },
+        {
+          "name": "[14:53:10] [Session Id: 6afefd] Click on the \"Home\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096503903580266.png",
+              "source": "ec86980e315244c391c862681549a4bc-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:53:10] [Session Id: 6afefd] Click on the \"Home\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674028390156,
+          "stop": 1674028390369
+        },
+        {
+          "name": "[14:53:32] [Session Id: 6afefd] Click on the \"Workforce\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096504135465982.png",
+              "source": "45546e8e7302400a95d62b70853f1f83-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:53:32] [Session Id: 6afefd] Click on the \"Workforce\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1674028412851,
+          "stop": 1674028413568
+        },
+        {
+          "name": "[14:53:36] [Session Id: 6afefd] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096504174054730.png",
+              "source": "3e33e1aa8c45463c940ab587a2c47b8c-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:53:36] [Session Id: 6afefd] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674028416736,
+          "stop": 1674028417418
+        },
+        {
+          "name": "[14:53:37] [Session Id: 6afefd] Click on the link Internal Workforce on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096504180237593.png",
+              "source": "3140634ecb3e44128069302f0ad25bf2-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:53:37] [Session Id: 6afefd] Click on the link Internal Workforce on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1674028417418,
+          "stop": 1674028418035
+        },
+        {
+          "name": "[14:54:22] [Session Id: 6afefd] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E009_Test_screenshot_638096504628754599.png",
+              "source": "99a7fe058f82494793aa851a2520d8fa-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[14:54:22] [Session Id: 6afefd] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page"
+            }
+          ],
+          "start": 1674028462676,
+          "stop": 1674028462886
+        }
+      ],
+      "attachments": [
+        {
+          "name": "E2E009_Test_screenshot_638096505044785848.png",
+          "source": "77b413a880a9416c92323ac9f4bed184-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "E2E009_Test_screenshot_638096505053123960.png",
+          "source": "5d1c535e7520411cbe584c25f885dc77-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "E2E009_Test_screenshot_638096505057675154.png",
+          "source": "bcd35c57a2e74675abce5e715d17db57-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "e4f6e27c5f6b4959bd5aabf2ae8db909-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1674028344614,
+      "stop": 1674028506088
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674028344613,
+  "stop": 1674028506094
+}

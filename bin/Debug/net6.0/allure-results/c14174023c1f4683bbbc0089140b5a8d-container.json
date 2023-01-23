@@ -1,0 +1,76 @@
+{
+  "uuid": "5211d5ed-5f53-4713-9917-dba37d8f126d-tc-0-1012",
+  "name": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E006.E2E006_Test",
+  "children": [
+    "c37393e7-bfad-4872-8b84-6bf3b3d0fa64-tr-0-1013"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673945414383,
+      "stop": 1673945414383
+    },
+    {
+      "name": "SetUpDriver",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673945414383,
+      "stop": 1673945414383
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseDrive",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673945414383,
+      "stop": 1673945414383
+    },
+    {
+      "name": "DeleteCreatedResourcePool",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "TearDown : OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: ./td[3]",
+        "trace": "--TearDown\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Text()\r\n   at WRMAutotests.PageObjects.Web.Contractor.panels.ResourcesPoolPanel.ResourcePoolRow.GetResourcePoolName() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\ResourcesPoolPanel.cs:line 98\r\n   at WRMAutotests.PageObjects.Web.Contractor.panels.ResourcesPoolPanel.<>c__DisplayClass4_0.<GetResourcePoolRowsByResourcePoolName>b__0(ResourcePoolRow r) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\ResourcesPoolPanel.cs:line 33\r\n   at System.Linq.Enumerable.WhereListIterator`1.ToList()\r\n   at WRMAutotests.PageObjects.Web.Contractor.panels.ResourcesPoolPanel.GetResourcePoolRowsByResourcePoolName(String name) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\ResourcesPoolPanel.cs:line 33\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E006.DeleteCreatedResourcePool() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E006.cs:line 64"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673945414383,
+      "stop": 1673945414383
+    }
+  ],
+  "links": [],
+  "start": 1673944908150,
+  "stop": 1673945414424
+}

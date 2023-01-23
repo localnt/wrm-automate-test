@@ -1,0 +1,74 @@
+{
+  "uuid": "1e8d5ead-2b1d-49a1-b2f5-0f794e17c88b-tc-0-1004",
+  "name": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E002.E2E002_Test",
+  "children": [
+    "4e091c74-75d6-4688-bbcc-b6339bbf8bbf-tr-0-1005"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673941573775,
+      "stop": 1673941573775
+    },
+    {
+      "name": "SetUpDriver",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673941573776,
+      "stop": 1673941573776
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseDrive",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673941573776,
+      "stop": 1673941573776
+    },
+    {
+      "name": "RemoveCreatedEvent",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673941573776,
+      "stop": 1673941573776
+    }
+  ],
+  "links": [],
+  "start": 1673941258508,
+  "stop": 1673941573822
+}

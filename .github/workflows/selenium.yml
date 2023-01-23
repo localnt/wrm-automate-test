@@ -1,0 +1,30 @@
+name: Selenium C# xUnit Tests 
+
+on: 
+  workflow_dispatch:
+    inputs:
+        username:
+          description: Username
+          default: "bob"
+          required: true
+        password:
+          description: Password (For example only. It's not secure.)
+          default: "bob"
+          required: true
+
+jobs:
+  tests:
+    name: Unit Testing
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: dotnet test
+        env:
+          username: "${{ github.event.inputs.username }}"
+          password: "${{ github.event.inputs.password }}"
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: imagesresult
+          path: D:\a\testselenium02\testselenium02\bin\Debug\net6.0\imagesresult
+          retention-days: 30

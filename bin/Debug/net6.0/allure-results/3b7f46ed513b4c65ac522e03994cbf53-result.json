@@ -1,0 +1,989 @@
+{
+  "uuid": "c37393e7-bfad-4872-8b84-6bf3b3d0fa64-tr-0-1013",
+  "historyId": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E006.E2E006_Test",
+  "fullName": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E006.E2E006_Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-0L701GT"
+    },
+    {
+      "name": "package",
+      "value": "WRMAutotests.Tests.WebUI.EndToEndTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "E2E006_Test"
+    },
+    {
+      "name": "testClass",
+      "value": "E2E006"
+    }
+  ],
+  "links": [],
+  "name": "E2E006_Test",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TearDown : OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: ./td[3]",
+    "trace": "--TearDown\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Text()\r\n   at WRMAutotests.PageObjects.Web.Contractor.panels.ResourcesPoolPanel.ResourcePoolRow.GetResourcePoolName() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\ResourcesPoolPanel.cs:line 98\r\n   at WRMAutotests.PageObjects.Web.Contractor.panels.ResourcesPoolPanel.<>c__DisplayClass4_0.<GetResourcePoolRowsByResourcePoolName>b__0(ResourcePoolRow r) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\ResourcesPoolPanel.cs:line 33\r\n   at System.Linq.Enumerable.WhereListIterator`1.ToList()\r\n   at WRMAutotests.PageObjects.Web.Contractor.panels.ResourcesPoolPanel.GetResourcePoolRowsByResourcePoolName(String name) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\ResourcesPoolPanel.cs:line 33\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E006.DeleteCreatedResourcePool() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E006.cs:line 64"
+  },
+  "stage": "finished",
+  "description": "\nDeleteCreatedResourcePool TearDown method failed\n",
+  "steps": [
+    {
+      "name": "E2E006_Test",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "TearDown : OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: ./td[3]",
+        "trace": "--TearDown\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Text()\r\n   at WRMAutotests.PageObjects.Web.Contractor.panels.ResourcesPoolPanel.ResourcePoolRow.GetResourcePoolName() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\ResourcesPoolPanel.cs:line 98\r\n   at WRMAutotests.PageObjects.Web.Contractor.panels.ResourcesPoolPanel.<>c__DisplayClass4_0.<GetResourcePoolRowsByResourcePoolName>b__0(ResourcePoolRow r) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\ResourcesPoolPanel.cs:line 33\r\n   at System.Linq.Enumerable.WhereListIterator`1.ToList()\r\n   at WRMAutotests.PageObjects.Web.Contractor.panels.ResourcesPoolPanel.GetResourcePoolRowsByResourcePoolName(String name) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\panels\\ResourcesPoolPanel.cs:line 33\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E006.DeleteCreatedResourcePool() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E006.cs:line 64"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "[15:41:50] [Session Id: 411532] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095669109235786.png",
+              "source": "d93e22125c9c4a0f8f0c62d19841cef1-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:41:50] [Session Id: 411532] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1673944910508,
+          "stop": 1673944910938
+        },
+        {
+          "name": "[15:41:51] [Session Id: 411532] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095669115424233.png",
+              "source": "53da0ea2a35e401faf06cd9690b5d3b3-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:41:51] [Session Id: 411532] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1673944911154,
+          "stop": 1673944911556
+        },
+        {
+          "name": "[15:41:51] [Session Id: 411532] Click on the \"Login\" button on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095669121116601.png",
+              "source": "b21c27bb51264b339e5d0c8040aaf047-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:41:51] [Session Id: 411532] Click on the \"Login\" button on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1673944911727,
+          "stop": 1673944912123
+        },
+        {
+          "name": "[15:41:56] [Session Id: 411532] Click on the \"Home\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095669165388557.png",
+              "source": "aeaac257402b4bc69700f8312c3bf016-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:41:56] [Session Id: 411532] Click on the \"Home\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1673944916270,
+          "stop": 1673944916554
+        },
+        {
+          "name": "[15:42:20] [Session Id: 411532] Click on the \"Workforce\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095669408538147.png",
+              "source": "878f01eb3ac442ef983b2d063c41aa48-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:42:20] [Session Id: 411532] Click on the \"Workforce\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1673944940320,
+          "stop": 1673944940866
+        },
+        {
+          "name": "[15:42:24] [Session Id: 411532] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095669445563395.png",
+              "source": "01b024100445401a85f8d916b00b717b-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:42:24] [Session Id: 411532] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1673944944007,
+          "stop": 1673944944568
+        },
+        {
+          "name": "[15:42:24] [Session Id: 411532] Click on the link Internal Workforce on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095669450858859.png",
+              "source": "a5abcde32db64bd2989bdfae462e4f8d-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:42:24] [Session Id: 411532] Click on the link Internal Workforce on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1673944944568,
+          "stop": 1673944945097
+        },
+        {
+          "name": "[15:42:47] [Session Id: 411532] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095669681528398.png",
+              "source": "b9e53da6ac0347b99897543697dcee7c-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:42:47] [Session Id: 411532] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page"
+            }
+          ],
+          "start": 1673944967939,
+          "stop": 1673944968166
+        },
+        {
+          "name": "[15:43:18] [Session Id: 411532] Click on the \"Add\" button on the \"Internal workforce\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095669989787001.png",
+              "source": "ce9697ba3d3f4d648910f925e0e15c03-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:43:18] [Session Id: 411532] Click on the \"Add\" button on the \"Internal workforce\" page"
+            }
+          ],
+          "start": 1673944998747,
+          "stop": 1673944998989
+        },
+        {
+          "name": "[15:43:27] [Session Id: 411532] Enter \"Resource pool 001Testic997862\" into \"Resource Pool Name\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670080484452.png",
+              "source": "5ecd3131f00c48c5a19af0d91eb15ced-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:43:27] [Session Id: 411532] Enter \"Resource pool 001Testic997862\" into \"Resource Pool Name\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1673945007845,
+          "stop": 1673945008059
+        },
+        {
+          "name": "[15:43:28] [Session Id: 411532] Click on the \"Open dropdown\" button on the \"Source Location\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670085171262.png",
+              "source": "55185fbe839e4cf79ef1655ed68db500-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:43:28] [Session Id: 411532] Click on the \"Open dropdown\" button on the \"Source Location\" Dropdown menu"
+            }
+          ],
+          "start": 1673945008296,
+          "stop": 1673945008526
+        },
+        {
+          "name": "[15:43:32] [Session Id: 411532] Click on the \"Aaronsburg, PA menu element\" button on the \"Source Location\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670129219715.png",
+              "source": "58874ed936a540b29237db652375f023-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:43:32] [Session Id: 411532] Click on the \"Aaronsburg, PA menu element\" button on the \"Source Location\" Dropdown menu"
+            }
+          ],
+          "start": 1673945012724,
+          "stop": 1673945012932
+        },
+        {
+          "name": "[15:43:37] [Session Id: 411532] Uncheck \"On - IOU\" checkbox on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670173250766.png",
+              "source": "a9486ae0d0bc427b988bd698b91e7fc1-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:43:37] [Session Id: 411532] Uncheck \"On - IOU\" checkbox on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1673945017125,
+          "stop": 1673945017334
+        },
+        {
+          "name": "[15:43:37] [Session Id: 411532] Enter \"10\" into \"Estimated Resources\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670175769413.png",
+              "source": "b206408d7ffd4e4c91856a74c852520d-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:43:37] [Session Id: 411532] Enter \"10\" into \"Estimated Resources\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1673945017358,
+          "stop": 1673945017588
+        },
+        {
+          "name": "[15:43:37] [Session Id: 411532] Enter \"5\" into \"Estimated Crews\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670180208835.png",
+              "source": "054bc51286c64cf084b2f0b168580f24-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:43:37] [Session Id: 411532] Enter \"5\" into \"Estimated Crews\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1673945017785,
+          "stop": 1673945018030
+        },
+        {
+          "name": "[15:43:38] [Session Id: 411532] Enter \"2\" into \"Crew size\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670184397168.png",
+              "source": "38dcdf47227c4490a445ac67702745e3-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:43:38] [Session Id: 411532] Enter \"2\" into \"Crew size\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1673945018237,
+          "stop": 1673945018450
+        },
+        {
+          "name": "[15:43:38] [Session Id: 411532] Enter \"4\" into \"Estimated Buckets\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670188470714.png",
+              "source": "2ba845e82ebb4fb6897a8585cff94394-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:43:38] [Session Id: 411532] Enter \"4\" into \"Estimated Buckets\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1673945018647,
+          "stop": 1673945018857
+        },
+        {
+          "name": "[15:43:39] [Session Id: 411532] Enter \"3\" into \"Estimated Diggers\" field on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670192686001.png",
+              "source": "02c27055711240cd83d225c9c27d49b9-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:43:39] [Session Id: 411532] Enter \"3\" into \"Estimated Diggers\" field on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1673945019046,
+          "stop": 1673945019279
+        },
+        {
+          "name": "[15:43:39] [Session Id: 411532] Click on the \"Add\" button on the \"Add new Resource pool\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670196792416.png",
+              "source": "7cbba48bdce044689c2d01a228db54f7-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:43:39] [Session Id: 411532] Click on the \"Add\" button on the \"Add new Resource pool\" page"
+            }
+          ],
+          "start": 1673945019468,
+          "stop": 1673945019688
+        },
+        {
+          "name": "[15:44:20] [Session Id: 411532] Verify that Source location expected: Aaronsburg, PA. Expected: Aaronsburg, PA. Found value: Aaronsburg, PA on the \"Resource pool\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670607340674.png",
+              "source": "3f87446bda8a41578df6f806a8acc03d-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:44:20] [Session Id: 411532] Verify that Source location expected: Aaronsburg, PA. Expected: Aaronsburg, PA. Found value: Aaronsburg, PA on the \"Resource pool\" row"
+            }
+          ],
+          "start": 1673945060495,
+          "stop": 1673945060748
+        },
+        {
+          "name": "[15:44:20] [Session Id: 411532] Verify that Estimated Resource location expected: 10. Expected: 10. Found value: 10 on the \"Resource pool\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670610456714.png",
+              "source": "233906f13a7946bb91dfbbd84b7eb42d-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:44:20] [Session Id: 411532] Verify that Estimated Resource location expected: 10. Expected: 10. Found value: 10 on the \"Resource pool\" row"
+            }
+          ],
+          "start": 1673945060798,
+          "stop": 1673945061056
+        },
+        {
+          "name": "[15:44:21] [Session Id: 411532] Verify that Estimated Crew expected: 5. Expected: 5. Found value: 5 on the \"Resource pool\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670613166293.png",
+              "source": "1ed9913d6ee144db834b30dc2e7d0222-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:44:21] [Session Id: 411532] Verify that Estimated Crew expected: 5. Expected: 5. Found value: 5 on the \"Resource pool\" row"
+            }
+          ],
+          "start": 1673945061090,
+          "stop": 1673945061327
+        },
+        {
+          "name": "[15:44:21] [Session Id: 411532] Verify that Crew Size expected: 2. Expected: 2. Found value: 2 on the \"Resource pool\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670615900369.png",
+              "source": "3144a42fd48c4418bf1cdf7173d06d46-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:44:21] [Session Id: 411532] Verify that Crew Size expected: 2. Expected: 2. Found value: 2 on the \"Resource pool\" row"
+            }
+          ],
+          "start": 1673945061357,
+          "stop": 1673945061602
+        },
+        {
+          "name": "[15:44:21] [Session Id: 411532] Verify that Estimated buckets expected: 4. Expected: 4. Found value: 4 on the \"Resource pool\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670618970712.png",
+              "source": "2b49a633211343ce8c7daec76fd9cefc-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:44:21] [Session Id: 411532] Verify that Estimated buckets expected: 4. Expected: 4. Found value: 4 on the \"Resource pool\" row"
+            }
+          ],
+          "start": 1673945061633,
+          "stop": 1673945061909
+        },
+        {
+          "name": "[15:44:21] [Session Id: 411532] Verify that Estimated diggers expected: 3. Expected: 3. Found value: 3 on the \"Resource pool\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670621821458.png",
+              "source": "6d0bb89541c548f1ab2f0b179856a262-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:44:21] [Session Id: 411532] Verify that Estimated diggers expected: 3. Expected: 3. Found value: 3 on the \"Resource pool\" row"
+            }
+          ],
+          "start": 1673945061941,
+          "stop": 1673945062192
+        },
+        {
+          "name": "[15:44:22] [Session Id: 411532] Verify that Modified date expected: just now. Expected: just now. Found value: just now on the \"Resource pool\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670624476279.png",
+              "source": "7a478b0eb2d14085a1a5cfcde12f3bad-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:44:22] [Session Id: 411532] Verify that Modified date expected: just now. Expected: just now. Found value: just now on the \"Resource pool\" row"
+            }
+          ],
+          "start": 1673945062222,
+          "stop": 1673945062457
+        },
+        {
+          "name": "[15:44:22] [Session Id: 411532] Verify that IOU unchecked on the \"Resource pool\" row",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670627246334.png",
+              "source": "f0913ac0f3ae4e7fa8399b4a3e96430d-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:44:22] [Session Id: 411532] Verify that IOU unchecked on the \"Resource pool\" row"
+            }
+          ],
+          "start": 1673945062490,
+          "stop": 1673945062735
+        },
+        {
+          "name": "[15:44:26] [Session Id: b68a34] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670666400338.png",
+              "source": "3d586cfb8f354ec5b250a48ab507bd6b-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:44:26] [Session Id: b68a34] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1673945066237,
+          "stop": 1673945066654
+        },
+        {
+          "name": "[15:44:26] [Session Id: b68a34] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670672308296.png",
+              "source": "6e2cb75f2bd14338aa05d54c0fc69055-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:44:26] [Session Id: b68a34] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1673945066849,
+          "stop": 1673945067243
+        },
+        {
+          "name": "[15:44:27] [Session Id: b68a34] Click on the \"Login\" button on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670678017341.png",
+              "source": "6b671fffaa9144d99c946a8bcd7676ac-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:44:27] [Session Id: b68a34] Click on the \"Login\" button on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1673945067412,
+          "stop": 1673945067817
+        },
+        {
+          "name": "[15:44:40] [Session Id: b68a34] Click on the \"Home\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095670804589191.png",
+              "source": "49459a0bc20748aeb265959f6e0befc7-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:44:40] [Session Id: b68a34] Click on the \"Home\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1673945080127,
+          "stop": 1673945080472
+        },
+        {
+          "name": "[15:45:03] [Session Id: b68a34] Click on the \"Workforce\" button on the \"Contractor Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095671041715022.png",
+              "source": "36b5be172649491097d5a14398dfc86b-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:45:03] [Session Id: b68a34] Click on the \"Workforce\" button on the \"Contractor Header\" panel"
+            }
+          ],
+          "start": 1673945103612,
+          "stop": 1673945104184
+        },
+        {
+          "name": "[15:45:07] [Session Id: b68a34] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095671078597543.png",
+              "source": "15aa8aeef25a4b3f99a47b20358ccc92-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:45:07] [Session Id: b68a34] Click on the \"Internal Workforce\" button on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1673945107319,
+          "stop": 1673945107873
+        },
+        {
+          "name": "[15:45:07] [Session Id: b68a34] Click on the link Internal Workforce on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095671084713168.png",
+              "source": "6230ecf44c214d4ea366c0876ac4210a-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:45:07] [Session Id: b68a34] Click on the link Internal Workforce on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1673945107873,
+          "stop": 1673945108482
+        },
+        {
+          "name": "[15:45:32] [Session Id: b68a34] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E006_Test_screenshot_638095671325731971.png",
+              "source": "32ce96ba20bd40afa4a4d2e102273f99-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:45:32] [Session Id: b68a34] Click on the \"Tab: Damage Assessment\" button on the \"Internal workforce\" page"
+            }
+          ],
+          "start": 1673945132339,
+          "stop": 1673945132585
+        }
+      ],
+      "attachments": [
+        {
+          "name": "E2E006_Test_screenshot_638095674136192529.png",
+          "source": "70a23302795e45288ce2d6060460af22-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "E2E006_Test_screenshot_638095674141365650.png",
+          "source": "838cf48881334080bb524cb7c9efe279-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "e125174b2203453ab87043a8cde37ea3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1673944908153,
+      "stop": 1673945414387
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673944908152,
+  "stop": 1673945414390
+}

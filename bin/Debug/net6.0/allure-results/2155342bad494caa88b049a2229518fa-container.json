@@ -1,0 +1,80 @@
+{
+  "uuid": "1ff92aab-d5a6-4826-9e16-4d3dc377a438-tc-0-1018",
+  "name": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E011.E2E011_Test",
+  "children": [
+    "8bac279e-8f06-4612-811d-5c6172ca69d8-tr-0-1019"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674029919844,
+      "stop": 1674029919844
+    },
+    {
+      "name": "SetUpDriver",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674029919844,
+      "stop": 1674029919844
+    },
+    {
+      "name": "CreateNeedEnteties",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.IO.IOException : There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E011_Test_screenshot_638096519121332205.png'\r\nTearDown : System.IO.IOException : There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E011_Test_screenshot_638096519175389280.png'",
+        "trace": "   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.MemoryStream.WriteTo(Stream stream)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at WRMAutotests.Utility.ReportUtils.MakeScreenshoot(BaseInformation baseInformation) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 64\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_o(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 56\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_w_0(Object[] )\r\n   at WRMAutotests.Utility.ReportUtils.BaseAllureStep(String step)\r\n   at WRMAutotests.Utility.ReportUtils.AllureStep(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 45\r\n   at WRMAutotests.Utility.ReportUtils.AllureStepWithPageObject(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 37\r\n   at WRMAutotests.Utility.ReportUtils.EnterValueToField(String nameOfField, String value) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 32\r\n   at WRMAutotests.PageObjects.Web.Contractor.pages.LoginPage.EnterEmail(String email) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\pages\\LoginPage.cs:line 28\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.LoginUntoDefaultContractor(BaseInformation baseInfortamtion, User user) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 152\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E011.CreateNeedEnteties() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E011.cs:line 30\r\n--TearDown\r\n   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.MemoryStream.WriteTo(Stream stream)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at WRMAutotests.Utility.ReportUtils.MakeScreenshoot(BaseInformation baseInformation) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 64\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_o(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 56\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_w_0(Object[] )\r\n   at WRMAutotests.Utility.ReportUtils.BaseAllureStep(String step)\r\n   at WRMAutotests.Utility.ReportUtils.AllureStep(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 45\r\n   at WRMAutotests.Utility.ReportUtils.AllureStepWithPageObject(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 37\r\n   at WRMAutotests.Utility.ReportUtils.EnterValueToField(String nameOfField, String value) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 32\r\n   at WRMAutotests.PageObjects.Web.Contractor.pages.LoginPage.EnterEmail(String email) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\pages\\LoginPage.cs:line 28\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.LoginUntoDefaultContractor(BaseInformation baseInfortamtion, User user) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 152\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E011.DeleteCreatedResourcePool() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E011.cs:line 96"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674029919844,
+      "stop": 1674029919844
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseDrive",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674029919845,
+      "stop": 1674029919845
+    },
+    {
+      "name": "DeleteCreatedResourcePool",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.IO.IOException : There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E011_Test_screenshot_638096519121332205.png'\r\nTearDown : System.IO.IOException : There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E011_Test_screenshot_638096519175389280.png'",
+        "trace": "   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at Syste

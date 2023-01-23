@@ -1,0 +1,118 @@
+{
+  "uuid": "8bac279e-8f06-4612-811d-5c6172ca69d8-tr-0-1019",
+  "historyId": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E011.E2E011_Test",
+  "fullName": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E011.E2E011_Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-0L701GT"
+    },
+    {
+      "name": "package",
+      "value": "WRMAutotests.Tests.WebUI.EndToEndTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "E2E011_Test"
+    },
+    {
+      "name": "testClass",
+      "value": "E2E011"
+    }
+  ],
+  "links": [],
+  "name": "E2E011_Test",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.IO.IOException : There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E011_Test_screenshot_638096519121332205.png'\r\nTearDown : System.IO.IOException : There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E011_Test_screenshot_638096519175389280.png'",
+    "trace": "   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.MemoryStream.WriteTo(Stream stream)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at WRMAutotests.Utility.ReportUtils.MakeScreenshoot(BaseInformation baseInformation) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 64\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_o(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 56\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_w_0(Object[] )\r\n   at WRMAutotests.Utility.ReportUtils.BaseAllureStep(String step)\r\n   at WRMAutotests.Utility.ReportUtils.AllureStep(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 45\r\n   at WRMAutotests.Utility.ReportUtils.AllureStepWithPageObject(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 37\r\n   at WRMAutotests.Utility.ReportUtils.EnterValueToField(String nameOfField, String value) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 32\r\n   at WRMAutotests.PageObjects.Web.Contractor.pages.LoginPage.EnterEmail(String email) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\pages\\LoginPage.cs:line 28\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.LoginUntoDefaultContractor(BaseInformation baseInfortamtion, User user) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 152\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E011.CreateNeedEnteties() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E011.cs:line 30\r\n--TearDown\r\n   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.MemoryStream.WriteTo(Stream stream)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at WRMAutotests.Utility.ReportUtils.MakeScreenshoot(BaseInformation baseInformation) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 64\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_o(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 56\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_w_0(Object[] )\r\n   at WRMAutotests.Utility.ReportUtils.BaseAllureStep(String step)\r\n   at WRMAutotests.Utility.ReportUtils.AllureStep(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 45\r\n   at WRMAutotests.Utility.ReportUtils.AllureStepWithPageObject(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 37\r\n   at WRMAutotests.Utility.ReportUtils.EnterValueToField(String nameOfField, String value) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 32\r\n   at WRMAutotests.PageObjects.Web.Contractor.pages.LoginPage.EnterEmail(String email) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\pages\\LoginPage.cs:line 28\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.LoginUntoDefaultContractor(BaseInformation baseInfortamtion, User user) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 152\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E011.DeleteCreatedResourcePool() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E011.cs:line 96"
+  },
+  "stage": "finished",
+  "description": "\nCreateNeedEnteties SetUp method failed\n\nDeleteCreatedResourcePool TearDown method failed\n",
+  "steps": [
+    {
+      "name": "E2E011_Test skipped because of ClearResultsDir failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.IO.IOException : There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E011_Test_screenshot_638096519121332205.png'\r\nTearDown : System.IO.IOException : There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E011_Test_screenshot_638096519175389280.png'",
+        "trace": "   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.MemoryStream.WriteTo(Stream stream)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at WRMAutotests.Utility.ReportUtils.MakeScreenshoot(BaseInformation baseInformation) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 64\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_o(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 56\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_w_0(Object[] )\r\n   at WRMAutotests.Utility.ReportUtils.BaseAllureStep(String step)\r\n   at WRMAutotests.Utility.ReportUtils.AllureStep(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 45\r\n   at WRMAutotests.Utility.ReportUtils.AllureStepWithPageObject(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 37\r\n   at WRMAutotests.Utility.ReportUtils.EnterValueToField(String nameOfField, String value) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 32\r\n   at WRMAutotests.PageObjects.Web.Contractor.pages.LoginPage.EnterEmail(String email) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\pages\\LoginPage.cs:line 28\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.LoginUntoDefaultContractor(BaseInformation baseInfortamtion, User user) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 152\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E011.CreateNeedEnteties() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E011.cs:line 30\r\n--TearDown\r\n   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.MemoryStream.WriteTo(Stream stream)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at WRMAutotests.Utility.ReportUtils.MakeScreenshoot(BaseInformation baseInformation) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 64\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_o(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 56\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_w_0(Object[] )\r\n   at WRMAutotests.Utility.ReportUtils.BaseAllureStep(String step)\r\n   at WRMAutotests.Utility.ReportUtils.AllureStep(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 45\r\n   at WRMAutotests.Utility.ReportUtils.AllureStepWithPageObject(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 37\r\n   at WRMAutotests.Utility.ReportUtils.EnterValueToField(String nameOfField, String value) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 32\r\n   at WRMAutotests.PageObjects.Web.Contractor.pages.LoginPage.EnterEmail(String email) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Contractor\\pages\\LoginPage.cs:line 28\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.LoginUntoDefaultContractor(BaseInformation baseInfortamtion, User user) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 152\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E011.DeleteCreatedResourcePool() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E011.cs:line 96"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "[15:18:31] [Session Id: 9cc6f1] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E011_Test_screenshot_638096519121332205.png'",
+            "trace": "   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.MemoryStream.WriteTo(Stream stream)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at WRMAutotests.Utility.ReportUtils.MakeScreenshoot(BaseInformation baseInformation) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 64\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_o(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 56\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:18:31] [Session Id: 9cc6f1] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674029911666,
+          "stop": 1674029912160
+        },
+        {
+          "name": "[15:18:37] [Session Id: c6760a] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "There is not enough space on the disk. : 'm:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\bin\\Debug\\net6.0\\E2E011_Test_screenshot_638096519175389280.png'",
+            "trace": "   at System.IO.RandomAccess.WriteAtOffset(SafeFileHandle handle, ReadOnlySpan`1 buffer, Int64 fileOffset)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(ReadOnlySpan`1 buffer)\r\n   at System.IO.Strategies.OSFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.WriteSpan(ReadOnlySpan`1 source, ArraySegment`1 arraySegment)\r\n   at System.IO.Strategies.BufferedFileStreamStrategy.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.MemoryStream.WriteTo(Stream stream)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at WRMAutotests.Utility.ReportUtils.MakeScreenshoot(BaseInformation baseInformation) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 64\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_o(String step) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\ReportUtils.cs:line 56\r\n   at WRMAutotests.Utility.ReportUtils.__a$_around_BaseAllureStep_100663331_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:18:37] [Session Id: c6760a] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1674029917089,
+          "stop": 1674029917540
+        }
+      ],
+      "attachments": [
+        {
+          "name": "E2E011_Test_screenshot_638096519178093104.png",
+          "source": "1505a9d0ba1e4cbea7c2c05f4d517700-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "8f4e854475d845c596e5f880d8acadc9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1674029908347,
+      "stop": 1674029919847
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674029908346,
+  "stop": 1674029919855
+}

@@ -1,0 +1,93 @@
+{
+  "uuid": "c1201c6f-c31a-4f95-9f8b-2f682133a075-tc-0-1016",
+  "name": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.E2E009_Test",
+  "children": [
+    "e4a7543d-06cc-45c0-a7bf-4d63eb68e09f-tr-0-1017"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674028805799,
+      "stop": 1674028805799
+    },
+    {
+      "name": "SetUpDriver",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674028805800,
+      "stop": 1674028805800
+    },
+    {
+      "name": "CreateNeedEnteties",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : Sequence contains no matching element\r\nTearDown : System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+        "trace": "   at System.Linq.ThrowHelper.ThrowNoMatchException()\r\n   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)\r\n   at WRMAutotests.PageObjects.Web.BaseElements.StandardDropdownMenu.SelectMenuElement(String menuElement) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\BaseElements\\StandardDropdownMenu.cs:line 50\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.CreateResourcePool(MainPage mainPage, Tabs tab, String resourcePoolName, String sourceLocation, Int32 estimatedResources, Int32 estimatedCrews, Int32 crewSize, Int32 estimatedBuckets, Int32 estimatedDiggers, Boolean checkOnIouCheckbox, String utilityName) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 190\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.CreateNeedEnteties() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E009.cs:line 36\r\n--TearDown\r\n   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.DeleteCreatedResourcePool() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E009.cs:line 193"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674028805800,
+      "stop": 1674028805800
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseDrive",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674028805800,
+      "stop": 1674028805800
+    },
+    {
+      "name": "DeleteCreatedResourcePool",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : Sequence contains no matching element\r\nTearDown : System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+        "trace": "   at System.Linq.ThrowHelper.ThrowNoMatchException()\r\n   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)\r\n   at WRMAutotests.PageObjects.Web.BaseElements.StandardDropdownMenu.SelectMenuElement(String menuElement) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\BaseElements\\StandardDropdownMenu.cs:line 50\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.CreateResourcePool(MainPage mainPage, Tabs tab, String resourcePoolName, String sourceLocation, Int32 estimatedResources, Int32 estimatedCrews, Int32 crewSize, Int32 estimatedBuckets, Int32 estimatedDiggers, Boolean checkOnIouCheckbox, String utilityName) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 190\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.CreateNeedEnteties() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E009.cs:line 36\r\n--TearDown\r\n   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E009.DeleteCreatedResourcePool() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E009.cs:line 193"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674028805800,
+      "stop": 1674028805800
+    }
+  ],
+  "links": [],
+  "start": 1674028601902,
+  "stop": 1674028805870
+}

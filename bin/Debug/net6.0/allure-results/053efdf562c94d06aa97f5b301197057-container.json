@@ -1,0 +1,91 @@
+{
+  "uuid": "95485c2c-cc86-420c-9d92-3fabd60374b1-tc-0-1018",
+  "name": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E011.E2E011_Test",
+  "children": [
+    "99bc10cc-b307-4da5-8591-181331637a83-tr-0-1019"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674030583368,
+      "stop": 1674030583368
+    },
+    {
+      "name": "SetUpDriver",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674030583368,
+      "stop": 1674030583368
+    },
+    {
+      "name": "CreateNeedEnteties",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 120 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at WRMAutotests.Utility.Web.WaitUtils.WaitForElementClicable(IWebElement webElement) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\Web\\WaitUtils.cs:line 50\r\n   at WRMAutotests.PageObjects.Web.Utility.panel.HeaderPanel.OpenWorkforceEventsManuPanel() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\PageObjects\\Web\\Utility\\panel\\HeaderPanel.cs:line 48\r\n   at WRMAutotests.Tests.WebUI.Base.BaseWebTest.CreateProcureCrew(ManageSecuredWorkforcePage manageSecuredWorkforcePage, String sourceLocation, String resourcePoolName, String assignedSupervisor) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\Base\\BaseWebTest.cs:line 228\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E011.CreateNeedEnteties() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E011.cs:line 36"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674030583368,
+      "stop": 1674030583368
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseDrive",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674030583369,
+      "stop": 1674030583369
+    },
+    {
+      "name": "DeleteCreatedResourcePool",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674030583369,
+      "stop": 1674030583369
+    }
+  ],
+  "links": [],
+  "start": 1674029999439,
+  "stop": 1674030583408
+}

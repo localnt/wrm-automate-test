@@ -1,0 +1,174 @@
+{
+  "uuid": "71476b23-1db2-4b77-bf43-81a3a5756c0a-tr-0-1009",
+  "historyId": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E004.E2E004_Test",
+  "fullName": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E004.E2E004_Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-0L701GT"
+    },
+    {
+      "name": "package",
+      "value": "WRMAutotests.Tests.WebUI.EndToEndTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "E2E004_Test"
+    },
+    {
+      "name": "testClass",
+      "value": "E2E004"
+    }
+  ],
+  "links": [],
+  "name": "E2E004_Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "E2E004_Test"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "E2E004_Test",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "[15:32:22] [Session Id: d9478e] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E004_Test_screenshot_638095663430376566.png",
+              "source": "8282021e703b4744ada2b27a3ae79b86-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:32:22] [Session Id: d9478e] Enter \"wrmQAautotests1@gmail.com\" into \"Email\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1673944342647,
+          "stop": 1673944343052
+        },
+        {
+          "name": "[15:32:23] [Session Id: d9478e] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E004_Test_screenshot_638095663436493030.png",
+              "source": "90e3b494bfaf485cb1451b3693742d10-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:32:23] [Session Id: d9478e] Enter \"FtYh#54Ytd\" into \"Password\" field on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1673944343256,
+          "stop": 1673944343661
+        },
+        {
+          "name": "[15:32:23] [Session Id: d9478e] Click on the \"Login\" button on the \"Contractor Login\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E004_Test_screenshot_638095663442064395.png",
+              "source": "a789d70fe4264af39b5c3a9e650a83ee-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:32:23] [Session Id: d9478e] Click on the \"Login\" button on the \"Contractor Login\" page"
+            }
+          ],
+          "start": 1673944343824,
+          "stop": 1673944344218
+        },
+        {
+          "name": "[15:32:27] [Session Id: d9478e] Verify that Header present on the \"Contractor main\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E004_Test_screenshot_638095663482206566.png",
+              "source": "e645f5a71f0542afbf06b25979fdfb51-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:32:27] [Session Id: d9478e] Verify that Header present on the \"Contractor main\" page"
+            }
+          ],
+          "start": 1673944347967,
+          "stop": 1673944348233
+        }
+      ],
+      "attachments": [
+        {
+          "name": "E2E004_Test_screenshot_638095663484239899.png",
+          "source": "78efe44d53dc4a87ac1e05dbe3ba8b5d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "f4be890e06f744199ddebbcc5d3eed05-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1673944340519,
+      "stop": 1673944348658
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673944340518,
+  "stop": 1673944348663
+}

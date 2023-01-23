@@ -1,0 +1,565 @@
+{
+  "uuid": "4ba9c315-4c0b-4931-874f-9617641f4d56-tr-0-1007",
+  "historyId": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test",
+  "fullName": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-0L701GT"
+    },
+    {
+      "name": "package",
+      "value": "WRMAutotests.Tests.WebUI.EndToEndTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "E2E003_Test"
+    },
+    {
+      "name": "testClass",
+      "value": "E2E003"
+    }
+  ],
+  "links": [],
+  "name": "E2E003_Test",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "NUnit.Framework.AssertionException Inner Exception NUnit.Framework.AssertionException:   Expected: True\r\n  But was:  False\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsTrue(Boolean condition)\r\n   at WRMAutotests.Utility.AssertionUtils.TrueAssertionWithoutNameOfPageObject(String description, Boolean value) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\AssertionUtils.cs:line 21\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E003.cs:line 36"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "E2E003_Test",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "NUnit.Framework.AssertionException Inner Exception NUnit.Framework.AssertionException:   Expected: True\r\n  But was:  False\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsTrue(Boolean condition)\r\n   at WRMAutotests.Utility.AssertionUtils.TrueAssertionWithoutNameOfPageObject(String description, Boolean value) in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Utility\\AssertionUtils.cs:line 21\r\n   at WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test() in m:\\checking\\Storm-automation-ui-test-main\\WRMAutotests\\Tests\\WebUI\\EndToEndTests\\E2E003.cs:line 36"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "[15:27:31] [Session Id: d36a3b] Click on the \"Login\" button on the \"Utility Default\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095660516270119.png",
+              "source": "1e3708017c1b458e99d8e8caaed2b9c6-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:27:31] [Session Id: d36a3b] Click on the \"Login\" button on the \"Utility Default\" page"
+            }
+          ],
+          "start": 1673944051241,
+          "stop": 1673944051644
+        },
+        {
+          "name": "[15:27:33] [Session Id: d36a3b] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095660541819548.png",
+              "source": "2e0e9d87d3dc4b2a8ec2c19f1859d9aa-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:27:33] [Session Id: d36a3b] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673944053821,
+          "stop": 1673944054194
+        },
+        {
+          "name": "[15:27:34] [Session Id: d36a3b] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095660547420434.png",
+              "source": "0c2d763092c14bb1a1f7fef52381d2e0-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:27:34] [Session Id: d36a3b] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673944054380,
+          "stop": 1673944054752
+        },
+        {
+          "name": "[15:27:34] [Session Id: d36a3b] Click on the \"Login\" button on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095660553544013.png",
+              "source": "11d4e0c3f41e4274871f6faa6577d112-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:27:34] [Session Id: d36a3b] Click on the \"Login\" button on the \"Login\" panel"
+            }
+          ],
+          "start": 1673944054921,
+          "stop": 1673944055371
+        },
+        {
+          "name": "[15:27:38] [Session Id: d36a3b] Click on the \"Open dropdown\" button on the \"Operating company\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095660589325935.png",
+              "source": "c4c7aaadbc6f4adcbb7bb4a38c9a8816-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:27:38] [Session Id: d36a3b] Click on the \"Open dropdown\" button on the \"Operating company\" dropdown menu"
+            }
+          ],
+          "start": 1673944058526,
+          "stop": 1673944058944
+        },
+        {
+          "name": "[15:27:43] [Session Id: d36a3b] Click on the \"NG: New England menu element\" button on the \"Operating company\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095660634783167.png",
+              "source": "5393c3451469449a823209fe6a3fbc6c-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:27:43] [Session Id: d36a3b] Click on the \"NG: New England menu element\" button on the \"Operating company\" dropdown menu"
+            }
+          ],
+          "start": 1673944063112,
+          "stop": 1673944063489
+        },
+        {
+          "name": "[15:27:47] [Session Id: d36a3b] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095660680955003.png",
+              "source": "3b37a68c67e848f1a6a201ea43c2f13e-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:27:47] [Session Id: d36a3b] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673944067726,
+          "stop": 1673944068108
+        },
+        {
+          "name": "[15:27:52] [Session Id: d36a3b] Click on the \"2022.12.16 Snow menu element\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095660726216852.png",
+              "source": "82ad3196ebec40dcbb026ff668dec829-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:27:52] [Session Id: d36a3b] Click on the \"2022.12.16 Snow menu element\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673944072263,
+          "stop": 1673944072633
+        },
+        {
+          "name": "[15:28:00] [Session Id: d36a3b] Click on the \"Open Operating Company dropdown menu\" button on the \"Utility Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095660805574646.png",
+              "source": "decd3ec095844db5be35f9dd580aca2b-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:28:00] [Session Id: d36a3b] Click on the \"Open Operating Company dropdown menu\" button on the \"Utility Header\" panel"
+            }
+          ],
+          "start": 1673944080253,
+          "stop": 1673944080567
+        },
+        {
+          "name": "[15:28:02] [Session Id: d36a3b] Click on the \"Operating company: NG: New England\" button on the \"Operating company\" menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095660829078753.png",
+              "source": "98a652194f44430d845935b18db29c3e-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:28:02] [Session Id: d36a3b] Click on the \"Operating company: NG: New England\" button on the \"Operating company\" menu"
+            }
+          ],
+          "start": 1673944082704,
+          "stop": 1673944082917
+        },
+        {
+          "name": "[15:28:28] [Session Id: d36a3b] Open Workforce menu on the \"Utility Header\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095661082731286.png",
+              "source": "96e09dbbddc34ba4aafeb07d1acae8fb-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:28:28] [Session Id: d36a3b] Open Workforce menu on the \"Utility Header\" panel"
+            }
+          ],
+          "start": 1673944108076,
+          "stop": 1673944108284
+        },
+        {
+          "name": "[15:28:38] [Session Id: d36a3b] Click on the link Crew Availability Request on the \"Workforce menu\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095661187414460.png",
+              "source": "734961402d6d447b85a816a7a1f7cc35-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:28:38] [Session Id: d36a3b] Click on the link Crew Availability Request on the \"Workforce menu\" panel"
+            }
+          ],
+          "start": 1673944118541,
+          "stop": 1673944118751
+        },
+        {
+          "name": "[15:28:41] [Session Id: d36a3b] Click on the \"Click Tab with name Damage Assessment\" button on the \"Utility Creaw Availability Request\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095661221374674.png",
+              "source": "51f0f70f976f41498706ef7122e12b2d-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:28:41] [Session Id: d36a3b] Click on the \"Click Tab with name Damage Assessment\" button on the \"Utility Creaw Availability Request\" page"
+            }
+          ],
+          "start": 1673944121824,
+          "stop": 1673944122149
+        },
+        {
+          "name": "[15:28:52] [Session Id: d36a3b] Click Checkbox",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095661325164446.png",
+              "source": "41235f6b592b43c8881646c03f05d93b-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:28:52] [Session Id: d36a3b] Click Checkbox"
+            }
+          ],
+          "start": 1673944132298,
+          "stop": 1673944132526
+        },
+        {
+          "name": "[15:28:52] [Session Id: d36a3b] Click on the \"Request Crew Availability\" button on the \"Utility Creaw Availability Request\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095661328500453.png",
+              "source": "5a4a2afc8cbc4a5181508ea909188e21-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:28:52] [Session Id: d36a3b] Click on the \"Request Crew Availability\" button on the \"Utility Creaw Availability Request\" page"
+            }
+          ],
+          "start": 1673944132634,
+          "stop": 1673944132860
+        },
+        {
+          "name": "[15:29:02] [Session Id: d36a3b] Enter \"Storm predicted. Please provide crew availability informationTestic792578\" into \"Subject\" field on the \"Crew Availability Reqiest\" window",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095661432091876.png",
+              "source": "9240ee60b9944193aa15571265fbfb13-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:29:02] [Session Id: d36a3b] Enter \"Storm predicted. Please provide crew availability informationTestic792578\" into \"Subject\" field on the \"Crew Availability Reqiest\" window"
+            }
+          ],
+          "start": 1673944142991,
+          "stop": 1673944143218
+        },
+        {
+          "name": "[15:29:03] [Session Id: d36a3b] Enter \"We predict storm hitting area:Please provide your crew availability information for:Utility:NG: Downstate NYDiscipline:Damage AssessmentTestic742647\" into \"Message\" field on the \"Crew Availability Reqiest\" window",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095661437357349.png",
+              "source": "03c0d444a9674a22acf74ad5a5f5ebf6-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:29:03] [Session Id: d36a3b] Enter \"We predict storm hitting area:Please provide your crew availability information for:Utility:NG: Downstate NYDiscipline:Damage AssessmentTestic742647\" into \"Message\" field on the \"Crew Availability Reqiest\" window"
+            }
+          ],
+          "start": 1673944143535,
+          "stop": 1673944143746
+        },
+        {
+          "name": "[15:29:04] [Session Id: d36a3b] Click on the \"Request Crew Availability\" button on the \"Crew Availability Reqiest\" window",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095661443214640.png",
+              "source": "9209bcecc3804c4abde8149091c3b437-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:29:04] [Session Id: d36a3b] Click on the \"Request Crew Availability\" button on the \"Crew Availability Reqiest\" window"
+            }
+          ],
+          "start": 1673944144094,
+          "stop": 1673944144331
+        },
+        {
+          "name": "[15:31:38] [Session Id: d36a3b] Verify that Expected Email present in the Inbox",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095662991156673.png",
+              "source": "525e3d341669455d801f6ac8dafced8f-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:31:38] [Session Id: d36a3b] Verify that Expected Email present in the Inbox"
+            }
+          ],
+          "start": 1673944298889,
+          "stop": 1673944299129
+        }
+      ],
+      "attachments": [
+        {
+          "name": "E2E003_Test_screenshot_638095662994090307.png",
+          "source": "ceaf8bfc8fa74c84adad1b8e5e02c2c0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "6273a69f75f0489fb77e84b0625cedaa-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1673944048246,
+      "stop": 1673944299784
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673944048245,
+  "stop": 1673944299788
+}

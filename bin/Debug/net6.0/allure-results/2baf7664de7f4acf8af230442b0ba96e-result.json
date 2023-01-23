@@ -1,0 +1,278 @@
+{
+  "uuid": "c1edbdf0-111b-4cf7-bb0d-6b7becc50157-tr-0-1007",
+  "historyId": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test",
+  "fullName": "WRMAutotests.Tests.WebUI.EndToEndTests.E2E003.E2E003_Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-0L701GT"
+    },
+    {
+      "name": "package",
+      "value": "WRMAutotests.Tests.WebUI.EndToEndTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "E2E003_Test"
+    },
+    {
+      "name": "testClass",
+      "value": "E2E003"
+    }
+  ],
+  "links": [],
+  "name": "E2E003_Test",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "E2E003_Test"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "E2E003_Test",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "[15:24:30] [Session Id: 3a88ae] Click on the \"Login\" button on the \"Utility Default\" page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095658708281978.png",
+              "source": "dcc382291d844dfd8d39eb74354e3171-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:24:30] [Session Id: 3a88ae] Click on the \"Login\" button on the \"Utility Default\" page"
+            }
+          ],
+          "start": 1673943870435,
+          "stop": 1673943870842
+        },
+        {
+          "name": "[15:24:32] [Session Id: 3a88ae] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095658729168213.png",
+              "source": "acc156b62e2e4714bd78da03ad29aefe-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:24:32] [Session Id: 3a88ae] Enter \"wrmQAautotests2@gmail.com\" into \"Email\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673943872546,
+          "stop": 1673943872929
+        },
+        {
+          "name": "[15:24:33] [Session Id: 3a88ae] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095658734802534.png",
+              "source": "375bd247bd1944be852c7c1ddd0b1eae-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:24:33] [Session Id: 3a88ae] Enter \"QtYh#54Ytd\" into \"Password\" field on the \"Login\" panel"
+            }
+          ],
+          "start": 1673943873117,
+          "stop": 1673943873492
+        },
+        {
+          "name": "[15:24:33] [Session Id: 3a88ae] Click on the \"Login\" button on the \"Login\" panel",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095658740784675.png",
+              "source": "9d3499f0a36b4433ad3fcff5d5d0d475-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:24:33] [Session Id: 3a88ae] Click on the \"Login\" button on the \"Login\" panel"
+            }
+          ],
+          "start": 1673943873662,
+          "stop": 1673943874091
+        },
+        {
+          "name": "[15:24:36] [Session Id: 3a88ae] Click on the \"Open dropdown\" button on the \"Operating company\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095658766242234.png",
+              "source": "d8ad2f65390e4801ba0ba0b4c6a3e7e4-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:24:36] [Session Id: 3a88ae] Click on the \"Open dropdown\" button on the \"Operating company\" dropdown menu"
+            }
+          ],
+          "start": 1673943876213,
+          "stop": 1673943876640
+        },
+        {
+          "name": "[15:24:40] [Session Id: 3a88ae] Click on the \"NG: New England menu element\" button on the \"Operating company\" dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095658811826340.png",
+              "source": "c82c0023b9fa41628baccbd7455b5afb-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:24:40] [Session Id: 3a88ae] Click on the \"NG: New England menu element\" button on the \"Operating company\" dropdown menu"
+            }
+          ],
+          "start": 1673943880815,
+          "stop": 1673943881194
+        },
+        {
+          "name": "[15:24:45] [Session Id: 3a88ae] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095658858204071.png",
+              "source": "14fdbd2e3b6d4d92a28c74a9313f60ce-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:24:45] [Session Id: 3a88ae] Click on the \"Open dropdown\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673943885448,
+          "stop": 1673943885835
+        },
+        {
+          "name": "[15:24:50] [Session Id: 3a88ae] Click on the \"2022.12.16 Snow menu element\" button on the \"Event\" Dropdown menu",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E003_Test_screenshot_638095658904158011.png",
+              "source": "45a6f0d3b3a140b684bd6eb2b0051372-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "[15:24:50] [Session Id: 3a88ae] Click on the \"2022.12.16 Snow menu element\" button on the \"Event\" Dropdown menu"
+            }
+          ],
+          "start": 1673943890035,
+          "stop": 1673943890427
+        }
+      ],
+      "attachments": [
+        {
+          "name": "E2E003_Test_screenshot_638095660129721623.png",
+          "source": "8409f114df3441c29ea5322c94d4ba91-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "10bb6b2715f4489b9ee7959a64024eb3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1673943868427,
+      "stop": 1673944013313
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673943868426,
+  "stop": 1673944013317
+}
