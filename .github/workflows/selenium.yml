@@ -2,15 +2,6 @@ name: Selenium tests
 
 on: 
   workflow_dispatch:
-    inputs:
-        username:
-          description: Username
-          default: "bob"
-          required: true
-        password:
-          description: Password (For example only. It's not secure.)
-          default: "bob"
-          required: true
 
 jobs:
   test:
