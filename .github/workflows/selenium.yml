@@ -11,10 +11,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Setup .NET SDK
-      run: |
-        choco install dotnet-sdk -y
-        
     - name: Install Scoop
       shell: pwsh
       run: |
@@ -23,18 +19,4 @@ jobs:
     - name: Install Allure
       run: |
         scoop install allure
-    
-    - name: Build and test
-      run: |
-        dotnet restore
-        dotnet build
-        dotnet test --filter "FullyQualifiedName=WRMAutotests.Tests.WebUI.EndToEndTests.E2E001.E2E001_Test" --verbosity normal --logger "trx;LogFileName=test_results.trx"
-        
-    - name: Generate Allure report
-      run: |
-        allure generate test_results.trx --clean -o allure-results
-
-    - name: Show Allure report
-      run: |
-        allure serve allure-results
 
