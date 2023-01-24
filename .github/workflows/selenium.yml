@@ -15,6 +15,10 @@ jobs:
       run: |
         choco install dotnet-sdk -y
         
+    - name: Perform a Pester test from the command-line
+      shell: pwsh
+      run: iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+        
     - name: Install Allure
       run: |
         scoop install allure
