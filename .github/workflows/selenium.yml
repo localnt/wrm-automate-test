@@ -10,21 +10,17 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-      
-    - name: Set the path of PowerShell executable
-      run: setx path '%path%;C:\Program Files\PowerShell\7\'
 
     - name: Install Scoop
       shell: pwsh
       run: |
         iex "& {$(irm get.scoop.sh)} -RunAsAdmin" 
-      
+        
     - name: Set the global directory for Scoop
-      shell: pwsh
       run: |
         setx SCOOP_GLOBAL "%USERPROFILE%\scoop\shims"
-      
+
     - name: install allure
       shell: pwsh
       run: |
-        scoop install allure
+        %USERPROFILE%\scoop\shims\scoop install allure
