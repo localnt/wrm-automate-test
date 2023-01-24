@@ -16,8 +16,7 @@ jobs:
       run: |
         iex "& {$(irm get.scoop.sh)} -RunAsAdmin" 
 
-    - name: Install Allure
-      shell: pwsh
+    - name: Show Scoop shims directory
       run: |
-        scoop help
+        dir /b ~scoop\shims
 
