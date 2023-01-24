@@ -19,5 +19,5 @@ jobs:
     - name: Install Allure
       shell: pwsh
       run: |
-        scoop install allure
+        scoop help
 
