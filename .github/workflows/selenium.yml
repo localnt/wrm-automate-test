@@ -14,7 +14,7 @@ jobs:
     - name: Install Scoop
       shell: pwsh
       run: |
-        iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+        iex "& {$(irm get.scoop.sh)} -RunAsAdmin" 
 
     - name: Install Allure
       run: |
