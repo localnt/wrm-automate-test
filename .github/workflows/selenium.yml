@@ -15,8 +15,12 @@ jobs:
       shell: pwsh
       run: |
         iex "& {$(irm get.scoop.sh)} -RunAsAdmin" 
-
-    - name: Show Scoop shims directory
+        
+    - name: Set the global directory for Scoop
       run: |
-        dir /b ~scoop\shims
+        setx SCOOP_GLOBAL "C:\scoop\global"
+
+    - name: install allure
+      run: |
+        scoop install allure
 
