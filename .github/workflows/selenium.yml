@@ -17,6 +17,7 @@ jobs:
         iex "& {$(irm get.scoop.sh)} -RunAsAdmin" 
 
     - name: Install Allure
+      shell: pwsh
       run: |
         scoop install allure
 
