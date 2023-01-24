@@ -22,7 +22,7 @@ jobs:
     - name: Set the global directory for Scoop
       shell: pwsh
       run: |
-        setx SCOOP_GLOBAL "%
+        setx SCOOP_GLOBAL "%USERPROFILE%\scoop\shims"
       
     - name: install allure
       shell: pwsh
