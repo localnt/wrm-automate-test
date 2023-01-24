@@ -21,6 +21,7 @@ jobs:
         setx SCOOP_GLOBAL "%USERPROFILE%\scoop\shims"
 
     - name: install allure
+      shell: pwsh
       run: |
         SCOOP_GLOBAL
 
