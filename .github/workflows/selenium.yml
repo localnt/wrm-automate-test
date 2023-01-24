@@ -18,7 +18,7 @@ jobs:
         
     - name: Set the global directory for Scoop
       run: |
-        setx SCOOP_GLOBAL "%USERPROFILE%\scoop"
+        setx SCOOP_GLOBAL "%USERPROFILE%\scoop\shims"
 
     - name: install allure
       run: |
