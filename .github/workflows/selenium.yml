@@ -18,7 +18,7 @@ jobs:
         
     - name: Set the global directory for Scoop
       run: |
-        setx SCOOP_GLOBAL "C:\scoop\global"
+        setx SCOOP_GLOBAL "%USERPROFILE%\scoop"
 
     - name: install allure
       run: |
