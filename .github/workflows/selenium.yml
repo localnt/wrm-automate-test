@@ -20,5 +20,4 @@ jobs:
       run: setx SCOOP_GLOBAL "%USERPROFILE%\scoop\shims"
 
     - name: install allure
-      run: |
-        %USERPROFILE%\scoop\shims\scoop install allure
+      run: cmd /c "%USERPROFILE%\scoop\shims\scoop install allure"
