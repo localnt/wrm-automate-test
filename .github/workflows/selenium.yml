@@ -17,10 +17,8 @@ jobs:
         iex "& {$(irm get.scoop.sh)} -RunAsAdmin" 
         
     - name: Set the global directory for Scoop
-      run: |
-        setx SCOOP_GLOBAL "%USERPROFILE%\scoop\shims"
+      run: setx SCOOP_GLOBAL "%USERPROFILE%\scoop\shims"
 
     - name: install allure
-      shell: pwsh
       run: |
         %USERPROFILE%\scoop\shims\scoop install allure
