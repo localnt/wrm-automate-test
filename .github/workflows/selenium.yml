@@ -17,7 +17,7 @@ jobs:
         
     - name: Install Allure
       run: |
-        choco install allure -y
+        scoop install allure
 
     - name: Build and test
       run: |
