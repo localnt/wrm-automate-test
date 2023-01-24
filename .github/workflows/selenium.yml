@@ -21,7 +21,6 @@ jobs:
         iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
     - name: Install Allure
-      shell: pwsh
       run: |
         scoop install allure
     
