@@ -14,31 +14,15 @@ jobs:
     - name: Setup .NET SDK
       run: |
         choco install dotnet-sdk -y
-    - name: Install Scoop
-      shell: pwsh
+        
+    - name: Build and test
       run: |
-        iex "& {$(irm get.scoop.sh)} -RunAsAdmin" 
-        
-    - name: Set the global directory for Scoop
-      run: setx SCOOP_GLOBAL "%USERPROFILE%\scoop\shims"
-
-    - name: install allure
-      run: cmd /c "%USERPROFILE%\scoop\shims\scoop install allure"
-         
-    - name: Get Allure history
-      uses: actions/checkout@v2
-      if: always()
-      continue-on-error: true
+        dotnet restore
+        dotnet test --filter "FullyQualifiedName=WRMAutotests.Tests.WebUI.EndToEndTests.E2E001.E2E001_Test" --logger:trx
+        allure generate
+    
+    - name: Archive Allure results
+      uses: actions/upload-artifact@v2
       with:
-        ref: gh-pages
-        path: gh-pages
-        
-    - name: Test marketplace action
-      uses: simple-elf/allure-report-action@master
-      if: always()
-      id: allure-report
-      with:
-        allure_results: build/allure-results
-        gh_pages: gh-pages
-        allure_report: ./bin/Debug/net6.0/allure-report
-        allure_history: allure-history
+        name: allure-results
+        path: allure-results
