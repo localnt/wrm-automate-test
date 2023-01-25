@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - name: Checkout code
@@ -13,12 +13,28 @@ jobs:
       
     - name: Setup .NET SDK
       run: |
-        sudo apt-get update
-        sudo apt-get install -y dotnet-sdk-6.0
-    
+        choco install dotnet-sdk -y
+    - name: Install Scoop
+      shell: pwsh
+      run: |
+        iex "& {$(irm get.scoop.sh)} -RunAsAdmin" 
+        
+    - name: Set the global directory for Scoop
+      run: setx SCOOP_GLOBAL "%USERPROFILE%\scoop\shims"
+
+    - name: install allure
+      run: cmd /c "%USERPROFILE%\scoop\shims\scoop install allure"
+      
     - name: Build and test
       run: |
         dotnet restore
+        dotnet build
         dotnet test --filter "FullyQualifiedName=WRMAutotests.Tests.WebUI.EndToEndTests.E2E001.E2E001_Test" 
         
-  
+    - name: Get Allure history
+      uses: actions/checkout@v2
+      if: always()
+      continue-on-error: true
+      with:
+        ref: gh-pages
+        path: gh-pages
