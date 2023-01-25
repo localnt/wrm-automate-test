@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
@@ -13,24 +13,23 @@ jobs:
       
     - name: Setup .NET SDK
       run: |
-        choco install dotnet-sdk -y
+        sudo apt-get update
+        sudo apt-get install -y dotnet-sdk-6.0
 
-    - name: Install Scoop
-      shell: pwsh
+    - name: Install Allure
       run: |
-        iex "& {$(irm get.scoop.sh)} -RunAsAdmin" 
-        
-    - name: Set the global directory for Scoop
-      run: setx SCOOP_GLOBAL "%USERPROFILE%\scoop\shims"
-
-    - name: install allure
-      run: cmd /c "%USERPROFILE%\scoop\shims\scoop install allure"
+        sudo apt-add-repository -y ppa:yandex-qatools/allure
+        sudo apt-get update
+        sudo apt-get install -y allure
       
     - name: Build and test
       run: |
         dotnet restore
         dotnet build
         dotnet test --filter "FullyQualifiedName=WRMAutotests.Tests.WebUI.EndToEndTests.E2E001.E2E001_Test" 
+        
+    - name: Generate Allure report
+      run: allure generate -c build/allure-results -o allure-report
         
     - name: Get Allure history
       uses: actions/checkout@v2
@@ -40,12 +39,12 @@ jobs:
         ref: gh-pages
         path: gh-pages
 
-    - name: Allure Report action from marketplace
-      uses: simple-elf/allure-report-action@master
+    - name: Test local action
+      uses: ./allure-report-action
       if: always()
       id: allure-report
       with:
-        allure_results: target/allure-results
+        allure_results: build/allure-results
         gh_pages: gh-pages
         allure_report: allure-report
         allure_history: allure-history
