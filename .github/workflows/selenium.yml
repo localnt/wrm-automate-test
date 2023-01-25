@@ -19,7 +19,6 @@ jobs:
     - name: Build and test
       run: |
         dotnet restore
-        dotnet build
         dotnet test --filter "FullyQualifiedName=WRMAutotests.Tests.WebUI.EndToEndTests.E2E001.E2E001_Test" 
         
   
