@@ -22,7 +22,7 @@ jobs:
 
     - name: Zip files in folder
       run: |
-        7z a -tzip package.zip D:\a\wrm-automate-test\wrm-automate-test\WRMAutotests\bin\Debug\net6.0\allure-results
+        7z a -tzip package.zip D:\a\wrm-automate-test\wrm-automate-test\bin\Debug\net6.0\allure-results
         
     - name: Upload artifact
       uses: actions/upload-artifact@v2
