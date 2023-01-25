@@ -18,11 +18,14 @@ jobs:
     - name: Build and test
       run: |
         dotnet restore
-        dotnet test --filter "FullyQualifiedName=WRMAutotests.Tests.WebUI.EndToEndTests.E2E001.E2E001_Test" --logger:trx
-        allure generate
-    
-    - name: Archive Allure results
+        dotnet test --filter "FullyQualifiedName=WRMAutotests.Tests.WebUI.EndToEndTests.E2E001.E2E001_Test"
+
+    - name: Zip files in folder
+      run: |
+        7z a -tzip package.zip D:\a\wrm-automate-test\wrm-automate-test\WRMAutotests\bin\Debug\net6.0\allure-results
+        
+    - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
-        name: allure-results
-        path: allure-results
+        name: package
+        path: package.zip
